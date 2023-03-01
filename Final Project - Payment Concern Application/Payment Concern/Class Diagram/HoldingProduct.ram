@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_V_Zj4IMREeueJvzVmnbeJA" name="HoldingProduct">
+  <realizes href="PaymentConcern2.core#_RzlPEILiEeuaX5PLgTUujg"/>
+  <coreConcern href="PaymentConcern2.core#_DklPMILhEeuaX5PLgTUujg"/>
+  <structuralView xmi:id="_V_Zj4YMREeueJvzVmnbeJA">
+    <classes xsi:type="ram:Class" xmi:id="_V_Zj5oMREeueJvzVmnbeJA" name="Order">
+      <attributes xmi:id="_V_Zj54MREeueJvzVmnbeJA" name="ProductReserved" type="_V_Zj6oMREeueJvzVmnbeJA"/>
+    </classes>
+    <types xsi:type="ram:RVoid" xmi:id="_V_Zj6IMREeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RAny" xmi:id="_V_Zj6YMREeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_V_Zj6oMREeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RInt" xmi:id="_V_Zj64MREeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RChar" xmi:id="_V_Zj7IMREeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RString" xmi:id="_V_Zj7YMREeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RDouble" xmi:id="_V_Zj7oMREeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RFloat" xmi:id="_V_Zj74MREeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RLong" xmi:id="_V_Zj8IMREeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RByte" xmi:id="_V_Zj8YMREeueJvzVmnbeJA"/>
+  </structuralView>
+  <instantiations xmi:id="_V_Zj8oMREeueJvzVmnbeJA">
+    <source xsi:type="ram:Aspect" href="InteractiveSession.ram#_r-AlsIMQEeueJvzVmnbeJA"/>
+  </instantiations>
+  <layout xmi:id="_V_Zj84MREeueJvzVmnbeJA">
+    <containers xmi:id="_V_Zj9IMREeueJvzVmnbeJA" key="_V_Zj4YMREeueJvzVmnbeJA">
+      <value xmi:id="_V_Zj94MREeueJvzVmnbeJA" key="_V_Zj5oMREeueJvzVmnbeJA">
+        <value xmi:id="_V_Zj-IMREeueJvzVmnbeJA" x="339.0" y="356.0"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

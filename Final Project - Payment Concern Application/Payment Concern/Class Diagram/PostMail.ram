@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_12wV0IVoEeuksaOCOrqtlQ" name="PostMail">
+  <realizes href="PaymentConcern2.core#_wkiIQIM5Eeub0qoaRVZnLg"/>
+  <coreConcern href="PaymentConcern2.core#_DklPMILhEeuaX5PLgTUujg"/>
+  <structuralView xmi:id="_12wV0YVoEeuksaOCOrqtlQ">
+    <classes xsi:type="ram:Class" xmi:id="_12wV0oVoEeuksaOCOrqtlQ" name="Notification">
+      <attributes xmi:id="__jSFgIVoEeuksaOCOrqtlQ" name="actualAddress" type="_12wV2IVoEeuksaOCOrqtlQ"/>
+    </classes>
+    <types xsi:type="ram:RVoid" xmi:id="_12wV04VoEeuksaOCOrqtlQ"/>
+    <types xsi:type="ram:RAny" xmi:id="_12wV1IVoEeuksaOCOrqtlQ"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_12wV1YVoEeuksaOCOrqtlQ"/>
+    <types xsi:type="ram:RInt" xmi:id="_12wV1oVoEeuksaOCOrqtlQ"/>
+    <types xsi:type="ram:RChar" xmi:id="_12wV14VoEeuksaOCOrqtlQ"/>
+    <types xsi:type="ram:RString" xmi:id="_12wV2IVoEeuksaOCOrqtlQ"/>
+    <types xsi:type="ram:RDouble" xmi:id="_12wV2YVoEeuksaOCOrqtlQ"/>
+    <types xsi:type="ram:RFloat" xmi:id="_12wV2oVoEeuksaOCOrqtlQ"/>
+    <types xsi:type="ram:RLong" xmi:id="_12wV24VoEeuksaOCOrqtlQ"/>
+    <types xsi:type="ram:RByte" xmi:id="_12wV3IVoEeuksaOCOrqtlQ"/>
+  </structuralView>
+  <instantiations xmi:id="_12wV3YVoEeuksaOCOrqtlQ">
+    <source xsi:type="ram:Aspect" href="PaymentNotification.ram#_Iah4YIMLEeueJvzVmnbeJA"/>
+  </instantiations>
+  <layout xmi:id="_12wV3oVoEeuksaOCOrqtlQ">
+    <containers xmi:id="_12w84IVoEeuksaOCOrqtlQ" key="_12wV0YVoEeuksaOCOrqtlQ">
+      <value xmi:id="_12w84YVoEeuksaOCOrqtlQ" key="_12wV0oVoEeuksaOCOrqtlQ">
+        <value xmi:id="_12w84oVoEeuksaOCOrqtlQ" x="553.9999" y="288.99994"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_0Mj-sIMUEeueJvzVmnbeJA" name="AccountLock">
+  <modelReuses xmi:id="_5MCJYIMUEeueJvzVmnbeJA">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_5MCJYYMUEeueJvzVmnbeJA">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_KnNnoILlEeuaX5PLgTUujg"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_5MCJYoMUEeueJvzVmnbeJA" to="_0Mj-x4MUEeueJvzVmnbeJA">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_KnNnooLlEeuaX5PLgTUujg"/>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_5MCJY4MUEeueJvzVmnbeJA" to="_0Mj-14MUEeueJvzVmnbeJA">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_KnNnpILlEeuaX5PLgTUujg"/>
+        <operationMappings xmi:id="_5MCJZIMUEeueJvzVmnbeJA" to="_5MFMsIMUEeueJvzVmnbeJA">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_KnNnpYLlEeuaX5PLgTUujg"/>
+        </operationMappings>
+        <operationMappings xmi:id="_5MCJZYMUEeueJvzVmnbeJA" to="_5MFMsYMUEeueJvzVmnbeJA">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_KnNnpoLlEeuaX5PLgTUujg"/>
+        </operationMappings>
+        <operationMappings xmi:id="_5MCJZoMUEeueJvzVmnbeJA" to="_5MFzwIMUEeueJvzVmnbeJA">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_KnNnqILlEeuaX5PLgTUujg"/>
+        </operationMappings>
+        <operationMappings xmi:id="_5MCJZ4MUEeueJvzVmnbeJA" to="_5MFzwYMUEeueJvzVmnbeJA">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_KnNnqYLlEeuaX5PLgTUujg"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="PaymentConcern2.core#_5MCJaIMUEeueJvzVmnbeJA"/>
+  </modelReuses>
+  <modelReuses xmi:id="_5MVrYIMUEeueJvzVmnbeJA">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_5MVrYYMUEeueJvzVmnbeJA">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_MaximumPlainBidirectional_PlainBidirectional.ram#_5MUdQIMUEeueJvzVmnbeJA"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_5MVrYoMUEeueJvzVmnbeJA" to="_0Mj-14MUEeueJvzVmnbeJA">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_MaximumPlainBidirectional_PlainBidirectional.ram#_5MUdQoMUEeueJvzVmnbeJA"/>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_5MVrY4MUEeueJvzVmnbeJA" to="_0Mj-x4MUEeueJvzVmnbeJA">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_MaximumPlainBidirectional_PlainBidirectional.ram#_5MUdRIMUEeueJvzVmnbeJA"/>
+        <operationMappings xmi:id="_5MVrZIMUEeueJvzVmnbeJA" to="_5MZVwIMUEeueJvzVmnbeJA">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_MaximumPlainBidirectional_PlainBidirectional.ram#_5MUdRYMUEeueJvzVmnbeJA"/>
+        </operationMappings>
+        <operationMappings xmi:id="_5MVrZYMUEeueJvzVmnbeJA" to="_5MZVwoMUEeueJvzVmnbeJA">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_MaximumPlainBidirectional_PlainBidirectional.ram#_5MUdR4MUEeueJvzVmnbeJA"/>
+        </operationMappings>
+        <operationMappings xmi:id="_5MVrZoMUEeueJvzVmnbeJA" to="_5MZ80IMUEeueJvzVmnbeJA">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_MaximumPlainBidirectional_PlainBidirectional.ram#_5MUdSYMUEeueJvzVmnbeJA"/>
+        </operationMappings>
+        <operationMappings xmi:id="_5MVrZ4MUEeueJvzVmnbeJA" to="_5MZ80oMUEeueJvzVmnbeJA">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_MaximumPlainBidirectional_PlainBidirectional.ram#_5MUdS4MUEeueJvzVmnbeJA"/>
+        </operationMappings>
+        <operationMappings xmi:id="_5MVraIMUEeueJvzVmnbeJA" to="_5Maj4IMUEeueJvzVmnbeJA">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_MaximumPlainBidirectional_PlainBidirectional.ram#_5MUdTYMUEeueJvzVmnbeJA"/>
+        </operationMappings>
+        <operationMappings xmi:id="_5MVraYMUEeueJvzVmnbeJA" to="_5Maj4YMUEeueJvzVmnbeJA">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_MaximumPlainBidirectional_PlainBidirectional.ram#_5MUdToMUEeueJvzVmnbeJA"/>
+        </operationMappings>
+        <operationMappings xmi:id="_5MVraoMUEeueJvzVmnbeJA" to="_5Maj44MUEeueJvzVmnbeJA">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_MaximumPlainBidirectional_PlainBidirectional.ram#_5MUdUIMUEeueJvzVmnbeJA"/>
+        </operationMappings>
+        <operationMappings xmi:id="_5MVra4MUEeueJvzVmnbeJA" to="_5Maj5IMUEeueJvzVmnbeJA">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_MaximumPlainBidirectional_PlainBidirectional.ram#_5MUdUYMUEeueJvzVmnbeJA"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="PaymentConcern2.core#_5MVrbIMUEeueJvzVmnbeJA"/>
+  </modelReuses>
+  <realizes href="PaymentConcern2.core#_YdoEYIMSEeueJvzVmnbeJA"/>
+  <coreConcern href="PaymentConcern2.core#_DklPMILhEeuaX5PLgTUujg"/>
+  <structuralView xmi:id="_0Mj-xoMUEeueJvzVmnbeJA">
+    <classes xsi:type="ram:Class" xmi:id="_0Mj-x4MUEeueJvzVmnbeJA" name="Transaction">
+      <operations xmi:id="_5MZVwIMUEeueJvzVmnbeJA" name="addSimpleLockAccount" extendedVisibility="protected" returnType="_0Mj-4oMUEeueJvzVmnbeJA">
+        <parameters xmi:id="_5MZVwYMUEeueJvzVmnbeJA" name="a" type="_0Mj-14MUEeueJvzVmnbeJA"/>
+      </operations>
+      <operations xmi:id="_5MZVwoMUEeueJvzVmnbeJA" name="removeSimpleLockAccount" extendedVisibility="protected" returnType="_0Mj-4oMUEeueJvzVmnbeJA">
+        <parameters xmi:id="_5MZVw4MUEeueJvzVmnbeJA" name="a" type="_0Mj-14MUEeueJvzVmnbeJA"/>
+      </operations>
+      <operations xmi:id="_5MZ80IMUEeueJvzVmnbeJA" name="addLockAccount" extendedVisibility="package" returnType="_0Mj-4oMUEeueJvzVmnbeJA">
+        <parameters xmi:id="_5MZ80YMUEeueJvzVmnbeJA" name="a" type="_0Mj-14MUEeueJvzVmnbeJA"/>
+      </operations>
+      <operations xmi:id="_5MZ80oMUEeueJvzVmnbeJA" name="removeLockAccount" extendedVisibility="package" returnType="_0Mj-4oMUEeueJvzVmnbeJA">
+        <parameters xmi:id="_5MZ804MUEeueJvzVmnbeJA" name="a" type="_0Mj-14MUEeueJvzVmnbeJA"/>
+      </operations>
+      <operations xmi:id="_5Maj4IMUEeueJvzVmnbeJA" name="createLockAccount" extendedVisibility="package" returnType="_0Mj-x4MUEeueJvzVmnbeJA" operationType="Constructor"/>
+      <operations xmi:id="_5Maj4YMUEeueJvzVmnbeJA" name="containsLockAccount" extendedVisibility="package" returnType="_0Mj-4oMUEeueJvzVmnbeJA">
+        <parameters xmi:id="_5Maj4oMUEeueJvzVmnbeJA" name="a" type="_0Mj-14MUEeueJvzVmnbeJA"/>
+      </operations>
+      <operations xmi:id="_5Maj44MUEeueJvzVmnbeJA" name="sizeOfLockAccount" extendedVisibility="package" returnType="_0Mj-44MUEeueJvzVmnbeJA"/>
+      <operations xmi:id="_5Maj5IMUEeueJvzVmnbeJA" name="getLockAccount" extendedVisibility="package">
+        <returnType xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_MaximumPlainBidirectional_PlainBidirectional.ram#_5MUdVIMUEeueJvzVmnbeJA"/>
+      </operations>
+      <associationEnds xmi:id="_0Mj-1YMUEeueJvzVmnbeJA" name="lockAccount" upperBound="2" assoc="_0Mj-34MUEeueJvzVmnbeJA" featureSelection="_5MVrYIMUEeueJvzVmnbeJA"/>
+      <attributes xmi:id="_0Mj-1oMUEeueJvzVmnbeJA" name="record" type="_0Mj-5YMUEeueJvzVmnbeJA"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_0Mj-14MUEeueJvzVmnbeJA" name="TransactionAccount">
+      <operations xmi:id="_5MFMsIMUEeueJvzVmnbeJA" name="createLockController" extendedVisibility="package" returnType="_0Mj-14MUEeueJvzVmnbeJA" operationType="Constructor"/>
+      <operations xmi:id="_5MFMsYMUEeueJvzVmnbeJA" name="containsLockController" extendedVisibility="package" returnType="_0Mj-4oMUEeueJvzVmnbeJA">
+        <parameters xmi:id="_5MFMsoMUEeueJvzVmnbeJA" name="a" type="_0Mj-x4MUEeueJvzVmnbeJA"/>
+      </operations>
+      <operations xmi:id="_5MFzwIMUEeueJvzVmnbeJA" name="sizeOfLockController" extendedVisibility="package" returnType="_0Mj-44MUEeueJvzVmnbeJA"/>
+      <operations xmi:id="_5MFzwYMUEeueJvzVmnbeJA" name="getLockController" extendedVisibility="package">
+        <returnType xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_KnNnrILlEeuaX5PLgTUujg"/>
+      </operations>
+      <associationEnds xmi:id="_0Mj-3YMUEeueJvzVmnbeJA" name="lockController" upperBound="-1" assoc="_0Mj-34MUEeueJvzVmnbeJA" featureSelection="_5MCJYIMUEeueJvzVmnbeJA"/>
+      <attributes xmi:id="_0Mj-3oMUEeueJvzVmnbeJA" name="isLocked" type="_0Mj-4oMUEeueJvzVmnbeJA"/>
+    </classes>
+    <associations xmi:id="_0Mj-34MUEeueJvzVmnbeJA" name="TransactionAccount_Transaction" ends="_0Mj-3YMUEeueJvzVmnbeJA _0Mj-1YMUEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RVoid" xmi:id="_0Mj-4IMUEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RAny" xmi:id="_0Mj-4YMUEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_0Mj-4oMUEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RInt" xmi:id="_0Mj-44MUEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RChar" xmi:id="_0Mj-5IMUEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RString" xmi:id="_0Mj-5YMUEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RDouble" xmi:id="_0Mj-5oMUEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RFloat" xmi:id="_0Mj-54MUEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RLong" xmi:id="_0Mj-6IMUEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RByte" xmi:id="_0Mj-6YMUEeueJvzVmnbeJA"/>
+  </structuralView>
+  <instantiations xmi:id="_0Mj-6oMUEeueJvzVmnbeJA">
+    <source xsi:type="ram:Aspect" href="FraudDetection.ram#_nOTqcIMSEeueJvzVmnbeJA"/>
+  </instantiations>
+  <layout xmi:id="_0Mj-64MUEeueJvzVmnbeJA">
+    <containers xmi:id="_0Mj-7IMUEeueJvzVmnbeJA" key="_0Mj-xoMUEeueJvzVmnbeJA">
+      <value xmi:id="_0Mj-7YMUEeueJvzVmnbeJA" key="_0Mj-x4MUEeueJvzVmnbeJA">
+        <value xmi:id="_0Mj-7oMUEeueJvzVmnbeJA" x="844.9999" y="383.0"/>
+      </value>
+      <value xmi:id="_0Mj-74MUEeueJvzVmnbeJA" key="_0Mj-14MUEeueJvzVmnbeJA">
+        <value xmi:id="_0Mj-8IMUEeueJvzVmnbeJA" x="349.9999" y="383.0"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

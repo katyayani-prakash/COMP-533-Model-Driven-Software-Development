@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_pkceYILxEeuaX5PLgTUujg" name="Credits">
+  <modelReuses xmi:id="_KlbosIWHEeuksaOCOrqtlQ">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_KlbosYWHEeuksaOCOrqtlQ">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEOwILjEeuaX5PLgTUujg"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_KlbosoWHEeuksaOCOrqtlQ" to="_5uaoQIWGEeuksaOCOrqtlQ">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEOwoLjEeuaX5PLgTUujg"/>
+        <operationMappings xmi:id="_Klbos4WHEeuksaOCOrqtlQ" to="_KlghMYWHEeuksaOCOrqtlQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEOw4LjEeuaX5PLgTUujg"/>
+        </operationMappings>
+        <operationMappings xmi:id="_KlbotIWHEeuksaOCOrqtlQ" to="_KlghMoWHEeuksaOCOrqtlQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEOxILjEeuaX5PLgTUujg"/>
+        </operationMappings>
+        <operationMappings xmi:id="_KlbotYWHEeuksaOCOrqtlQ" to="_KlhIQIWHEeuksaOCOrqtlQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEOxoLjEeuaX5PLgTUujg"/>
+        </operationMappings>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_KlbotoWHEeuksaOCOrqtlQ" to="_SF3wwIWGEeuksaOCOrqtlQ">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEOyYLjEeuaX5PLgTUujg"/>
+        <operationMappings xmi:id="_Klbot4WHEeuksaOCOrqtlQ" to="_KlfTEIWHEeuksaOCOrqtlQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEOyoLjEeuaX5PLgTUujg"/>
+        </operationMappings>
+        <operationMappings xmi:id="_KlbouIWHEeuksaOCOrqtlQ" to="_Klf6IIWHEeuksaOCOrqtlQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEOy4LjEeuaX5PLgTUujg"/>
+        </operationMappings>
+        <operationMappings xmi:id="_KlbouYWHEeuksaOCOrqtlQ" to="_Klf6IoWHEeuksaOCOrqtlQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEOzYLjEeuaX5PLgTUujg"/>
+        </operationMappings>
+        <operationMappings xmi:id="_KlbouoWHEeuksaOCOrqtlQ" to="_KlghMIWHEeuksaOCOrqtlQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEOzoLjEeuaX5PLgTUujg"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="PaymentConcern2.core#_Klbou4WHEeuksaOCOrqtlQ"/>
+  </modelReuses>
+  <modelReuses xmi:id="_KlhvUIWHEeuksaOCOrqtlQ">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_KlhvUYWHEeuksaOCOrqtlQ">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_ManyOpposite_One.ram#_xJTfUILjEeuaX5PLgTUujg"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_KlhvUoWHEeuksaOCOrqtlQ" to="_SF3wwIWGEeuksaOCOrqtlQ">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_ManyOpposite_One.ram#_xJTfV4LjEeuaX5PLgTUujg"/>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_KlhvU4WHEeuksaOCOrqtlQ" to="_5uaoQIWGEeuksaOCOrqtlQ">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_ManyOpposite_One.ram#_xJTfUoLjEeuaX5PLgTUujg"/>
+        <operationMappings xmi:id="_KlhvVIWHEeuksaOCOrqtlQ" to="_KlghMYWHEeuksaOCOrqtlQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_One.ram#_xJTfU4LjEeuaX5PLgTUujg"/>
+        </operationMappings>
+        <operationMappings xmi:id="_KlhvVYWHEeuksaOCOrqtlQ" to="_KlghMoWHEeuksaOCOrqtlQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_One.ram#_xJTfVILjEeuaX5PLgTUujg"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="PaymentConcern2.core#_KlhvVoWHEeuksaOCOrqtlQ"/>
+  </modelReuses>
+  <modelReuses xmi:id="_LLwB0IWHEeuksaOCOrqtlQ">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_LLwB0YWHEeuksaOCOrqtlQ">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEOwILjEeuaX5PLgTUujg"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_LLwB0oWHEeuksaOCOrqtlQ" to="_6deGoIWGEeuksaOCOrqtlQ">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEOwoLjEeuaX5PLgTUujg"/>
+        <operationMappings xmi:id="_LLwB04WHEeuksaOCOrqtlQ" to="_LL1hYIWHEeuksaOCOrqtlQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEOw4LjEeuaX5PLgTUujg"/>
+        </operationMappings>
+        <operationMappings xmi:id="_LLwB1IWHEeuksaOCOrqtlQ" to="_LL1hYYWHEeuksaOCOrqtlQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEOxILjEeuaX5PLgTUujg"/>
+        </operationMappings>
+        <operationMappings xmi:id="_LLwB1YWHEeuksaOCOrqtlQ" to="_LL2IcIWHEeuksaOCOrqtlQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEOxoLjEeuaX5PLgTUujg"/>
+        </operationMappings>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_LLwB1oWHEeuksaOCOrqtlQ" to="_SF3wwIWGEeuksaOCOrqtlQ">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEOyYLjEeuaX5PLgTUujg"/>
+        <operationMappings xmi:id="_LLwB14WHEeuksaOCOrqtlQ" to="_LL0TQIWHEeuksaOCOrqtlQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEOyoLjEeuaX5PLgTUujg"/>
+        </operationMappings>
+        <operationMappings xmi:id="_LLwB2IWHEeuksaOCOrqtlQ" to="_LL06UIWHEeuksaOCOrqtlQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEOy4LjEeuaX5PLgTUujg"/>
+        </operationMappings>
+        <operationMappings xmi:id="_LLwB2YWHEeuksaOCOrqtlQ" to="_LL06UoWHEeuksaOCOrqtlQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEOzYLjEeuaX5PLgTUujg"/>
+        </operationMappings>
+        <operationMappings xmi:id="_LLwB2oWHEeuksaOCOrqtlQ" to="_LL06U4WHEeuksaOCOrqtlQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEOzoLjEeuaX5PLgTUujg"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="PaymentConcern2.core#_LLwB24WHEeuksaOCOrqtlQ"/>
+  </modelReuses>
+  <modelReuses xmi:id="_LL2vgIWHEeuksaOCOrqtlQ">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_LL2vgYWHEeuksaOCOrqtlQ">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_ManyOpposite_One.ram#_xJTfUILjEeuaX5PLgTUujg"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_LL2vgoWHEeuksaOCOrqtlQ" to="_SF3wwIWGEeuksaOCOrqtlQ">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_ManyOpposite_One.ram#_xJTfV4LjEeuaX5PLgTUujg"/>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_LL2vg4WHEeuksaOCOrqtlQ" to="_6deGoIWGEeuksaOCOrqtlQ">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_ManyOpposite_One.ram#_xJTfUoLjEeuaX5PLgTUujg"/>
+        <operationMappings xmi:id="_LL2vhIWHEeuksaOCOrqtlQ" to="_LL1hYIWHEeuksaOCOrqtlQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_One.ram#_xJTfU4LjEeuaX5PLgTUujg"/>
+        </operationMappings>
+        <operationMappings xmi:id="_LL2vhYWHEeuksaOCOrqtlQ" to="_LL1hYYWHEeuksaOCOrqtlQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_One.ram#_xJTfVILjEeuaX5PLgTUujg"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="PaymentConcern2.core#_LL2vhoWHEeuksaOCOrqtlQ"/>
+  </modelReuses>
+  <modelReuses xmi:id="_WudQAIWHEeuksaOCOrqtlQ">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_WudQAYWHEeuksaOCOrqtlQ">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_vhoW4ILjEeuaX5PLgTUujg"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_WudQAoWHEeuksaOCOrqtlQ" to="_pkcehoLxEeuaX5PLgTUujg">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_vhoW4oLjEeuaX5PLgTUujg"/>
+        <operationMappings xmi:id="_WudQA4WHEeuksaOCOrqtlQ" to="_WukkwIWHEeuksaOCOrqtlQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_vhoW44LjEeuaX5PLgTUujg"/>
+        </operationMappings>
+        <operationMappings xmi:id="_WudQBIWHEeuksaOCOrqtlQ" to="_WukkwoWHEeuksaOCOrqtlQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_vhoW5YLjEeuaX5PLgTUujg"/>
+        </operationMappings>
+        <operationMappings xmi:id="_WudQBYWHEeuksaOCOrqtlQ" to="_WulL0IWHEeuksaOCOrqtlQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_vhoW5oLjEeuaX5PLgTUujg"/>
+        </operationMappings>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_WudQBoWHEeuksaOCOrqtlQ" to="_SF3wwIWGEeuksaOCOrqtlQ">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_vhoW6YLjEeuaX5PLgTUujg"/>
+        <operationMappings xmi:id="_WudQB4WHEeuksaOCOrqtlQ" to="_WujWoIWHEeuksaOCOrqtlQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_vhoW6oLjEeuaX5PLgTUujg"/>
+        </operationMappings>
+        <operationMappings xmi:id="_WudQCIWHEeuksaOCOrqtlQ" to="_WujWooWHEeuksaOCOrqtlQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_vhoW7ILjEeuaX5PLgTUujg"/>
+        </operationMappings>
+        <operationMappings xmi:id="_WudQCYWHEeuksaOCOrqtlQ" to="_Wuj9sIWHEeuksaOCOrqtlQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_vhoW7oLjEeuaX5PLgTUujg"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="PaymentConcern2.core#_WudQCoWHEeuksaOCOrqtlQ"/>
+  </modelReuses>
+  <modelReuses xmi:id="_Wuly4IWHEeuksaOCOrqtlQ">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_Wuly4YWHEeuksaOCOrqtlQ">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_vhoW4ILjEeuaX5PLgTUujg"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_Wuly4oWHEeuksaOCOrqtlQ" to="_SF3wwIWGEeuksaOCOrqtlQ">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_vhoW4oLjEeuaX5PLgTUujg"/>
+        <operationMappings xmi:id="_Wuly44WHEeuksaOCOrqtlQ" to="_WujWooWHEeuksaOCOrqtlQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_vhoW44LjEeuaX5PLgTUujg"/>
+        </operationMappings>
+        <operationMappings xmi:id="_Wuly5IWHEeuksaOCOrqtlQ" to="_Wuj9sIWHEeuksaOCOrqtlQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_vhoW5YLjEeuaX5PLgTUujg"/>
+        </operationMappings>
+        <operationMappings xmi:id="_Wuly5YWHEeuksaOCOrqtlQ" to="_WujWoIWHEeuksaOCOrqtlQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_vhoW5oLjEeuaX5PLgTUujg"/>
+        </operationMappings>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_Wuly5oWHEeuksaOCOrqtlQ" to="_pkcehoLxEeuaX5PLgTUujg">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_vhoW6YLjEeuaX5PLgTUujg"/>
+        <operationMappings xmi:id="_Wuly54WHEeuksaOCOrqtlQ" to="_WulL0IWHEeuksaOCOrqtlQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_vhoW6oLjEeuaX5PLgTUujg"/>
+        </operationMappings>
+        <operationMappings xmi:id="_Wuly6IWHEeuksaOCOrqtlQ" to="_WukkwIWHEeuksaOCOrqtlQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_vhoW7ILjEeuaX5PLgTUujg"/>
+        </operationMappings>
+        <operationMappings xmi:id="_Wuly6YWHEeuksaOCOrqtlQ" to="_WukkwoWHEeuksaOCOrqtlQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_vhoW7oLjEeuaX5PLgTUujg"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="PaymentConcern2.core#_Wuly6oWHEeuksaOCOrqtlQ"/>
+  </modelReuses>
+  <realizes href="PaymentConcern2.core#_8Tr_AILhEeuaX5PLgTUujg"/>
+  <coreConcern href="PaymentConcern2.core#_DklPMILhEeuaX5PLgTUujg"/>
+  <structuralView xmi:id="_pkcehYLxEeuaX5PLgTUujg">
+    <classes xsi:type="ram:Class" xmi:id="_pkcehoLxEeuaX5PLgTUujg" name="CreditDiscount" superTypes="_pkcejYLxEeuaX5PLgTUujg">
+      <operations xmi:id="_WukkwIWHEeuksaOCOrqtlQ" name="setSimpleDeterminator" extendedVisibility="protected" returnType="_pkceqILxEeuaX5PLgTUujg">
+        <parameters xmi:id="_WukkwYWHEeuksaOCOrqtlQ" name="newObject" type="_SF3wwIWGEeuksaOCOrqtlQ"/>
+      </operations>
+      <operations xmi:id="_WukkwoWHEeuksaOCOrqtlQ" name="getDeterminator" extendedVisibility="package" returnType="_SF3wwIWGEeuksaOCOrqtlQ"/>
+      <operations xmi:id="_WulL0IWHEeuksaOCOrqtlQ" name="setDeterminator" extendedVisibility="package" returnType="_pkceqILxEeuaX5PLgTUujg">
+        <parameters xmi:id="_WulL0YWHEeuksaOCOrqtlQ" name="a" type="_SF3wwIWGEeuksaOCOrqtlQ"/>
+      </operations>
+      <associationEnds xmi:id="_WiOx4IWHEeuksaOCOrqtlQ" name="determinator" lowerBound="1" assoc="_WiOx4YWHEeuksaOCOrqtlQ" featureSelection="_Wuly4IWHEeuksaOCOrqtlQ"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_pkcejYLxEeuaX5PLgTUujg" name="Discount"/>
+    <classes xsi:type="ram:Class" xmi:id="_SF3wwIWGEeuksaOCOrqtlQ" name="Merbership">
+      <operations xmi:id="_KlfTEIWHEeuksaOCOrqtlQ" name="createMyClient" extendedVisibility="package" returnType="_SF3wwIWGEeuksaOCOrqtlQ" operationType="Constructor"/>
+      <operations xmi:id="_Klf6IIWHEeuksaOCOrqtlQ" name="containsMyClient" extendedVisibility="package" returnType="_pkceqILxEeuaX5PLgTUujg">
+        <parameters xmi:id="_Klf6IYWHEeuksaOCOrqtlQ" name="a" type="_5uaoQIWGEeuksaOCOrqtlQ"/>
+      </operations>
+      <operations xmi:id="_Klf6IoWHEeuksaOCOrqtlQ" name="sizeOfMyClient" extendedVisibility="package" returnType="_pkceqYLxEeuaX5PLgTUujg"/>
+      <operations xmi:id="_KlghMIWHEeuksaOCOrqtlQ" name="getMyClient" extendedVisibility="package">
+        <returnType xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEO0YLjEeuaX5PLgTUujg"/>
+      </operations>
+      <operations xmi:id="_LL0TQIWHEeuksaOCOrqtlQ" name="createMembershipOf" extendedVisibility="package" returnType="_SF3wwIWGEeuksaOCOrqtlQ" operationType="Constructor"/>
+      <operations xmi:id="_LL06UIWHEeuksaOCOrqtlQ" name="containsMembershipOf" extendedVisibility="package" returnType="_pkceqILxEeuaX5PLgTUujg">
+        <parameters xmi:id="_LL06UYWHEeuksaOCOrqtlQ" name="a" type="_6deGoIWGEeuksaOCOrqtlQ"/>
+      </operations>
+      <operations xmi:id="_LL06UoWHEeuksaOCOrqtlQ" name="sizeOfMembershipOf" extendedVisibility="package" returnType="_pkceqYLxEeuaX5PLgTUujg"/>
+      <operations xmi:id="_LL06U4WHEeuksaOCOrqtlQ" name="getMembershipOf" extendedVisibility="package">
+        <returnType xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEO0YLjEeuaX5PLgTUujg"/>
+      </operations>
+      <operations xmi:id="_WujWoIWHEeuksaOCOrqtlQ" name="setExecutor" extendedVisibility="package" returnType="_pkceqILxEeuaX5PLgTUujg">
+        <parameters xmi:id="_WujWoYWHEeuksaOCOrqtlQ" name="newObject" type="_pkcehoLxEeuaX5PLgTUujg"/>
+      </operations>
+      <operations xmi:id="_WujWooWHEeuksaOCOrqtlQ" name="setSimpleExecutor" extendedVisibility="protected" returnType="_pkceqILxEeuaX5PLgTUujg">
+        <parameters xmi:id="_WujWo4WHEeuksaOCOrqtlQ" name="newObject" type="_pkcehoLxEeuaX5PLgTUujg"/>
+      </operations>
+      <operations xmi:id="_Wuj9sIWHEeuksaOCOrqtlQ" name="getExecutor" extendedVisibility="package" returnType="_pkcehoLxEeuaX5PLgTUujg"/>
+      <associationEnds xmi:id="_7hfIYYWGEeuksaOCOrqtlQ" name="myClient" upperBound="-1" assoc="_7hfIYoWGEeuksaOCOrqtlQ" featureSelection="_KlbosIWHEeuksaOCOrqtlQ"/>
+      <associationEnds xmi:id="_-vn4UIWGEeuksaOCOrqtlQ" name="membershipOf" upperBound="-1" assoc="_-vn4UoWGEeuksaOCOrqtlQ" featureSelection="_LLwB0IWHEeuksaOCOrqtlQ"/>
+      <associationEnds xmi:id="_WiOK0IWHEeuksaOCOrqtlQ" name="executor" lowerBound="1" assoc="_WiOx4YWHEeuksaOCOrqtlQ" featureSelection="_WudQAIWHEeuksaOCOrqtlQ"/>
+      <attributes xmi:id="_QUOXgIWHEeuksaOCOrqtlQ" name="credits" type="_pkceqYLxEeuaX5PLgTUujg"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_5uaoQIWGEeuksaOCOrqtlQ" name="Customer">
+      <operations xmi:id="_KlghMYWHEeuksaOCOrqtlQ" name="getNaN" extendedVisibility="package" returnType="_SF3wwIWGEeuksaOCOrqtlQ"/>
+      <operations xmi:id="_KlghMoWHEeuksaOCOrqtlQ" name="setNaN" extendedVisibility="package" returnType="_pkceqILxEeuaX5PLgTUujg">
+        <parameters xmi:id="_KlghM4WHEeuksaOCOrqtlQ" name="a" type="_SF3wwIWGEeuksaOCOrqtlQ"/>
+      </operations>
+      <operations xmi:id="_KlhIQIWHEeuksaOCOrqtlQ" name="setSimpleNaN" extendedVisibility="protected" returnType="_pkceqILxEeuaX5PLgTUujg">
+        <parameters xmi:id="_KlhIQYWHEeuksaOCOrqtlQ" name="newObject" type="_SF3wwIWGEeuksaOCOrqtlQ"/>
+      </operations>
+      <associationEnds xmi:id="_7hfIYIWGEeuksaOCOrqtlQ" name="NaN" lowerBound="1" assoc="_7hfIYoWGEeuksaOCOrqtlQ" featureSelection="_KlhvUIWHEeuksaOCOrqtlQ"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_6deGoIWGEeuksaOCOrqtlQ" name="Store">
+      <operations xmi:id="_LL1hYIWHEeuksaOCOrqtlQ" name="getNaN" extendedVisibility="package" returnType="_SF3wwIWGEeuksaOCOrqtlQ"/>
+      <operations xmi:id="_LL1hYYWHEeuksaOCOrqtlQ" name="setNaN" extendedVisibility="package" returnType="_pkceqILxEeuaX5PLgTUujg">
+        <parameters xmi:id="_LL1hYoWHEeuksaOCOrqtlQ" name="a" type="_SF3wwIWGEeuksaOCOrqtlQ"/>
+      </operations>
+      <operations xmi:id="_LL2IcIWHEeuksaOCOrqtlQ" name="setSimpleNaN" extendedVisibility="protected" returnType="_pkceqILxEeuaX5PLgTUujg">
+        <parameters xmi:id="_LL2IcYWHEeuksaOCOrqtlQ" name="newObject" type="_SF3wwIWGEeuksaOCOrqtlQ"/>
+      </operations>
+      <associationEnds xmi:id="_-vn4UYWGEeuksaOCOrqtlQ" name="NaN" lowerBound="1" assoc="_-vn4UoWGEeuksaOCOrqtlQ" featureSelection="_LL2vgIWHEeuksaOCOrqtlQ"/>
+    </classes>
+    <associations xmi:id="_7hfIYoWGEeuksaOCOrqtlQ" name="Customer_MerbershipAssociation" ends="_7hfIYIWGEeuksaOCOrqtlQ _7hfIYYWGEeuksaOCOrqtlQ"/>
+    <associations xmi:id="_-vn4UoWGEeuksaOCOrqtlQ" name="MerbershipAssociation_Store" ends="_-vn4UIWGEeuksaOCOrqtlQ _-vn4UYWGEeuksaOCOrqtlQ"/>
+    <associations xmi:id="_WiOx4YWHEeuksaOCOrqtlQ" name="MerbershipAssociation_CreditDiscount" ends="_WiOK0IWHEeuksaOCOrqtlQ _WiOx4IWHEeuksaOCOrqtlQ"/>
+    <types xsi:type="ram:RVoid" xmi:id="_pkcepoLxEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RAny" xmi:id="_pkcep4LxEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_pkceqILxEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RInt" xmi:id="_pkceqYLxEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RChar" xmi:id="_pkceqoLxEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RString" xmi:id="_pkceq4LxEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RDouble" xmi:id="_pkcerILxEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RFloat" xmi:id="_pkcerYLxEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RLong" xmi:id="_pkceroLxEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RByte" xmi:id="_pkcer4LxEeuaX5PLgTUujg"/>
+  </structuralView>
+  <instantiations xmi:id="_pkcesILxEeuaX5PLgTUujg">
+    <source xsi:type="ram:Aspect" href="Discount.ram#_LZMeMILlEeuaX5PLgTUujg"/>
+  </instantiations>
+  <layout xmi:id="_pkcesYLxEeuaX5PLgTUujg">
+    <containers xmi:id="_pkcesoLxEeuaX5PLgTUujg" key="_pkcehYLxEeuaX5PLgTUujg">
+      <value xmi:id="_pkces4LxEeuaX5PLgTUujg" key="_pkcehoLxEeuaX5PLgTUujg">
+        <value xmi:id="_pkcetILxEeuaX5PLgTUujg" x="371.02795" y="237.99213"/>
+      </value>
+      <value xmi:id="_pkcetYLxEeuaX5PLgTUujg" key="_pkcejYLxEeuaX5PLgTUujg">
+        <value xmi:id="_pkcetoLxEeuaX5PLgTUujg" x="62.983826" y="237.99213"/>
+      </value>
+      <value xmi:id="_SF5l8IWGEeuksaOCOrqtlQ" key="_SF3wwIWGEeuksaOCOrqtlQ">
+        <value xmi:id="_SF5l8YWGEeuksaOCOrqtlQ" x="382.0426" y="472.98846"/>
+      </value>
+      <value xmi:id="_5udEgIWGEeuksaOCOrqtlQ" key="_5uaoQIWGEeuksaOCOrqtlQ">
+        <value xmi:id="_5udEgYWGEeuksaOCOrqtlQ" x="21.04245" y="479.9923"/>
+      </value>
+      <value xmi:id="_6dgi4IWGEeuksaOCOrqtlQ" key="_6deGoIWGEeuksaOCOrqtlQ">
+        <value xmi:id="_6dgi4YWGEeuksaOCOrqtlQ" x="733.0056" y="479.98846"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_FJMx4IMIEeuaX5PLgTUujg" name="Refund">
+  <realizes href="PaymentConcern2.core#__cBiwIL-EeuaX5PLgTUujg"/>
+  <coreConcern href="PaymentConcern2.core#_DklPMILhEeuaX5PLgTUujg"/>
+  <structuralView xmi:id="_FJMx4YMIEeuaX5PLgTUujg">
+    <classes xsi:type="ram:Class" xmi:id="_FJMx4oMIEeuaX5PLgTUujg" name="Transaction">
+      <attributes xmi:id="_FJMx44MIEeuaX5PLgTUujg" name="isRefund" type="_FJMx5oMIEeuaX5PLgTUujg"/>
+    </classes>
+    <types xsi:type="ram:RVoid" xmi:id="_FJMx5IMIEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RAny" xmi:id="_FJMx5YMIEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_FJMx5oMIEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RInt" xmi:id="_FJMx54MIEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RChar" xmi:id="_FJMx6IMIEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RString" xmi:id="_FJMx6YMIEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RDouble" xmi:id="_FJMx6oMIEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RFloat" xmi:id="_FJMx64MIEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RLong" xmi:id="_FJMx7IMIEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RByte" xmi:id="_FJMx7YMIEeuaX5PLgTUujg"/>
+  </structuralView>
+  <instantiations xmi:id="_FJMx7oMIEeuaX5PLgTUujg">
+    <source xsi:type="ram:Aspect" href="PaymentConcern.ram#_02HS0ILkEeuaX5PLgTUujg"/>
+  </instantiations>
+  <layout xmi:id="_FJMx74MIEeuaX5PLgTUujg">
+    <containers xmi:id="_FJMx8IMIEeuaX5PLgTUujg" key="_FJMx4YMIEeuaX5PLgTUujg">
+      <value xmi:id="_FJMx8YMIEeuaX5PLgTUujg" key="_FJMx4oMIEeuaX5PLgTUujg">
+        <value xmi:id="_FJMx8oMIEeuaX5PLgTUujg" x="679.0" y="335.0"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

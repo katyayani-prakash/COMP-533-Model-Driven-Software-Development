@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_-9jncILlEeuaX5PLgTUujg" name="ShoppingSeason">
+  <realizes href="PaymentConcern2.core#_1oTFEILhEeuaX5PLgTUujg"/>
+  <coreConcern href="PaymentConcern2.core#_DklPMILhEeuaX5PLgTUujg"/>
+  <structuralView xmi:id="_-9jncYLlEeuaX5PLgTUujg">
+    <classes xsi:type="ram:Class" xmi:id="_-9jncoLlEeuaX5PLgTUujg" name="ShoppingSeasonDiscount" superTypes="_-9jndILlEeuaX5PLgTUujg">
+      <attributes xmi:id="_-9jnc4LlEeuaX5PLgTUujg" name="shoppingSeasonType" type="_-9jnf4LlEeuaX5PLgTUujg"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_-9jndILlEeuaX5PLgTUujg" name="Discount"/>
+    <types xsi:type="ram:RVoid" xmi:id="_-9jndYLlEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RAny" xmi:id="_-9jndoLlEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_-9jnd4LlEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RInt" xmi:id="_-9jneILlEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RChar" xmi:id="_-9jneYLlEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RString" xmi:id="_-9jneoLlEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RDouble" xmi:id="_-9jne4LlEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RFloat" xmi:id="_-9jnfILlEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RLong" xmi:id="_-9jnfYLlEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RByte" xmi:id="_-9jnfoLlEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:REnum" xmi:id="_-9jnf4LlEeuaX5PLgTUujg" name="ShoppingSeasonType">
+      <literals xmi:id="_-9jngILlEeuaX5PLgTUujg" name="Christmas"/>
+      <literals xmi:id="_-9jngYLlEeuaX5PLgTUujg" name="NewYear"/>
+      <literals xmi:id="_-9jngoLlEeuaX5PLgTUujg" name="SchoolFallTermStarts"/>
+      <literals xmi:id="_-9jng4LlEeuaX5PLgTUujg" name="SchoolWinterTermStarts"/>
+      <literals xmi:id="_-9jnhILlEeuaX5PLgTUujg" name="Thanksgiving"/>
+      <literals xmi:id="_-9jnhYLlEeuaX5PLgTUujg" name="NationalDay"/>
+      <literals xmi:id="_-9jnhoLlEeuaX5PLgTUujg" name="BlackFriday"/>
+    </types>
+  </structuralView>
+  <instantiations xmi:id="_-9jnh4LlEeuaX5PLgTUujg">
+    <source xsi:type="ram:Aspect" href="Discount.ram#_LZMeMILlEeuaX5PLgTUujg"/>
+  </instantiations>
+  <layout xmi:id="_-9jniILlEeuaX5PLgTUujg">
+    <containers xmi:id="_-9jniYLlEeuaX5PLgTUujg" key="_-9jncYLlEeuaX5PLgTUujg">
+      <value xmi:id="_-9jnioLlEeuaX5PLgTUujg" key="_-9jnf4LlEeuaX5PLgTUujg">
+        <value xmi:id="_-9jni4LlEeuaX5PLgTUujg" x="384.0" y="337.0"/>
+      </value>
+      <value xmi:id="_-9jnjILlEeuaX5PLgTUujg" key="_-9jncoLlEeuaX5PLgTUujg">
+        <value xmi:id="_-9jnjYLlEeuaX5PLgTUujg" x="647.99316" y="333.9999"/>
+      </value>
+      <value xmi:id="_-9jnjoLlEeuaX5PLgTUujg" key="_-9jndILlEeuaX5PLgTUujg">
+        <value xmi:id="_-9jnj4LlEeuaX5PLgTUujg" x="707.5" y="483.0"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_Yg6nwIL4EeuaX5PLgTUujg" name="PayByCard">
+  <realizes href="PaymentConcern2.core#_oTm74ILhEeuaX5PLgTUujg"/>
+  <coreConcern href="PaymentConcern2.core#_DklPMILhEeuaX5PLgTUujg"/>
+  <structuralView xmi:id="_Yg6nwYL4EeuaX5PLgTUujg">
+    <classes xsi:type="ram:Class" xmi:id="_RkULkIMEEeuaX5PLgTUujg" name="TransactionAccount"/>
+    <classes xsi:type="ram:Class" xmi:id="_T6DT4IMEEeuaX5PLgTUujg" name="TransactionByCard" superTypes="_RkULkIMEEeuaX5PLgTUujg">
+      <attributes xmi:id="_aclMwIMEEeuaX5PLgTUujg" name="expireDate">
+        <type xsi:type="ram:Class" href="PaymentConcern.ram#_02HTMILkEeuaX5PLgTUujg"/>
+      </attributes>
+      <attributes xmi:id="_nGTGUIMEEeuaX5PLgTUujg" name="isValid" type="_Yg6nx4L4EeuaX5PLgTUujg"/>
+      <attributes xmi:id="_zCZE4IMEEeuaX5PLgTUujg" name="bank" type="_qo64gIMEEeuaX5PLgTUujg"/>
+      <attributes xmi:id="_2fQ0YIMEEeuaX5PLgTUujg" name="cardType" type="_u8MEgIMEEeuaX5PLgTUujg"/>
+      <attributes xmi:id="_RWX-wIMbEeub0qoaRVZnLg" name="cardID" type="_Yg6nyoL4EeuaX5PLgTUujg"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_2NqQ8INaEeu0Oo8n3W-WGg" name="BankPlatform"/>
+    <types xsi:type="ram:RVoid" xmi:id="_Yg6nxYL4EeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RAny" xmi:id="_Yg6nxoL4EeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_Yg6nx4L4EeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RInt" xmi:id="_Yg6nyIL4EeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RChar" xmi:id="_Yg6nyYL4EeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RString" xmi:id="_Yg6nyoL4EeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RDouble" xmi:id="_Yg6ny4L4EeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RFloat" xmi:id="_Yg6nzIL4EeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RLong" xmi:id="_Yg6nzYL4EeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RByte" xmi:id="_Yg6nzoL4EeuaX5PLgTUujg"/>
+    <types xsi:type="ram:REnum" xmi:id="_qo64gIMEEeuaX5PLgTUujg" name="Bank">
+      <literals xmi:id="_smh0sIMEEeuaX5PLgTUujg" name="BMO"/>
+      <literals xmi:id="_tTAgMIMEEeuaX5PLgTUujg" name="Scotia"/>
+      <literals xmi:id="_tzG8kIMEEeuaX5PLgTUujg" name="RBC"/>
+    </types>
+    <types xsi:type="ram:REnum" xmi:id="_u8MEgIMEEeuaX5PLgTUujg" name="CardType">
+      <literals xmi:id="_wdgtUIMEEeuaX5PLgTUujg" name="Debit"/>
+      <literals xmi:id="_xDB1MIMEEeuaX5PLgTUujg" name="Credit"/>
+    </types>
+  </structuralView>
+  <instantiations xmi:id="_Yg6nz4L4EeuaX5PLgTUujg">
+    <source xsi:type="ram:Aspect" href="TransactionMethod.ram#_JnLMUIL4EeuaX5PLgTUujg"/>
+  </instantiations>
+  <layout xmi:id="_Yg6n0IL4EeuaX5PLgTUujg">
+    <containers xmi:id="_Yg6n0YL4EeuaX5PLgTUujg" key="_Yg6nwYL4EeuaX5PLgTUujg">
+      <value xmi:id="_RkWAwIMEEeuaX5PLgTUujg" key="_RkULkIMEEeuaX5PLgTUujg">
+        <value xmi:id="_RkWAwYMEEeuaX5PLgTUujg" x="712.00006" y="496.00024"/>
+      </value>
+      <value xmi:id="_T6EiAIMEEeuaX5PLgTUujg" key="_T6DT4IMEEeuaX5PLgTUujg">
+        <value xmi:id="_T6EiAYMEEeuaX5PLgTUujg" x="325.0007" y="437.00024"/>
+      </value>
+      <value xmi:id="_qo8GoIMEEeuaX5PLgTUujg" key="_qo64gIMEEeuaX5PLgTUujg">
+        <value xmi:id="_qo8GoYMEEeuaX5PLgTUujg" x="334.9997" y="659.0"/>
+      </value>
+      <value xmi:id="_u8NSoIMEEeuaX5PLgTUujg" key="_u8MEgIMEEeuaX5PLgTUujg">
+        <value xmi:id="_u8NSoYMEEeuaX5PLgTUujg" x="528.00006" y="672.0039"/>
+      </value>
+      <value xmi:id="_2NrfEINaEeu0Oo8n3W-WGg" key="_2NqQ8INaEeu0Oo8n3W-WGg">
+        <value xmi:id="_2NrfEYNaEeu0Oo8n3W-WGg" x="740.00006" y="682.5039"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

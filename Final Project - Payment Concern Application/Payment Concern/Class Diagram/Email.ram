@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_AqCiIIMMEeueJvzVmnbeJA" name="Email">
+  <realizes href="PaymentConcern2.core#_irV2YILiEeuaX5PLgTUujg"/>
+  <coreConcern href="PaymentConcern2.core#_DklPMILhEeuaX5PLgTUujg"/>
+  <structuralView xmi:id="_AqCiIYMMEeueJvzVmnbeJA">
+    <classes xsi:type="ram:Class" xmi:id="_AqCiIoMMEeueJvzVmnbeJA" name="Notification">
+      <attributes xmi:id="_AqCiI4MMEeueJvzVmnbeJA" name="emailAddress" type="_AqCiKYMMEeueJvzVmnbeJA"/>
+    </classes>
+    <types xsi:type="ram:RVoid" xmi:id="_AqCiJIMMEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RAny" xmi:id="_AqCiJYMMEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_AqCiJoMMEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RInt" xmi:id="_AqCiJ4MMEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RChar" xmi:id="_AqCiKIMMEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RString" xmi:id="_AqCiKYMMEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RDouble" xmi:id="_AqCiKoMMEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RFloat" xmi:id="_AqCiK4MMEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RLong" xmi:id="_AqCiLIMMEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RByte" xmi:id="_AqCiLYMMEeueJvzVmnbeJA"/>
+  </structuralView>
+  <instantiations xmi:id="_AqCiLoMMEeueJvzVmnbeJA">
+    <source xsi:type="ram:Aspect" href="PaymentNotification.ram#_Iah4YIMLEeueJvzVmnbeJA"/>
+  </instantiations>
+  <layout xmi:id="_AqCiL4MMEeueJvzVmnbeJA">
+    <containers xmi:id="_AqCiMIMMEeueJvzVmnbeJA" key="_AqCiIYMMEeueJvzVmnbeJA">
+      <value xmi:id="_AqCiMYMMEeueJvzVmnbeJA" key="_AqCiIoMMEeueJvzVmnbeJA">
+        <value xmi:id="_AqCiMoMMEeueJvzVmnbeJA" x="832.0" y="350.0"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

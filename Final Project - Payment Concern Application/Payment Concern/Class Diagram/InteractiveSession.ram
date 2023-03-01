@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_r-AlsIMQEeueJvzVmnbeJA" name="InteractiveSession">
+  <realizes href="PaymentConcern2.core#_ep7r4ILhEeuaX5PLgTUujg"/>
+  <coreConcern href="PaymentConcern2.core#_DklPMILhEeuaX5PLgTUujg"/>
+  <structuralView xmi:id="_r-AlxYMQEeueJvzVmnbeJA">
+    <classes xsi:type="ram:Class" xmi:id="_r-AlzoMQEeueJvzVmnbeJA" name="Transaction">
+      <attributes xmi:id="_PE16oIMTEeueJvzVmnbeJA" name="sessionStartTime">
+        <type xsi:type="ram:Class" href="PaymentConcern.ram#_02HTMILkEeuaX5PLgTUujg"/>
+      </attributes>
+      <attributes xmi:id="_QG9e8IMTEeueJvzVmnbeJA" name="sessionEndTime">
+        <type xsi:type="ram:Class" href="PaymentConcern.ram#_02HTMILkEeuaX5PLgTUujg"/>
+      </attributes>
+      <attributes xmi:id="_RX_pAIMTEeueJvzVmnbeJA" name="isSessionExpired" type="_r-Al2IMQEeueJvzVmnbeJA"/>
+    </classes>
+    <types xsi:type="ram:RVoid" xmi:id="_r-Al1oMQEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RAny" xmi:id="_r-Al14MQEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_r-Al2IMQEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RInt" xmi:id="_r-Al2YMQEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RChar" xmi:id="_r-Al2oMQEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RString" xmi:id="_r-Al24MQEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RDouble" xmi:id="_r-Al3IMQEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RFloat" xmi:id="_r-Al3YMQEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RLong" xmi:id="_r-Al3oMQEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RByte" xmi:id="_r-Al34MQEeueJvzVmnbeJA"/>
+  </structuralView>
+  <instantiations xmi:id="_r-Al4IMQEeueJvzVmnbeJA">
+    <source xsi:type="ram:Aspect" href="PaymentConcern.ram#_02HS0ILkEeuaX5PLgTUujg"/>
+  </instantiations>
+  <layout xmi:id="_r-Al4YMQEeueJvzVmnbeJA">
+    <containers xmi:id="_r-Al4oMQEeueJvzVmnbeJA" key="_r-AlxYMQEeueJvzVmnbeJA">
+      <value xmi:id="_r-Al5YMQEeueJvzVmnbeJA" key="_r-AlzoMQEeueJvzVmnbeJA">
+        <value xmi:id="_r-Al5oMQEeueJvzVmnbeJA" x="501.00012" y="242.99991"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_F2o8IIMHEeuaX5PLgTUujg" name="PayByMobile">
+  <realizes href="PaymentConcern2.core#_tWniwILhEeuaX5PLgTUujg"/>
+  <coreConcern href="PaymentConcern2.core#_DklPMILhEeuaX5PLgTUujg"/>
+  <structuralView xmi:id="_F2o8IYMHEeuaX5PLgTUujg">
+    <classes xsi:type="ram:Class" xmi:id="_F2o8IoMHEeuaX5PLgTUujg" name="TransactionAccount"/>
+    <classes xsi:type="ram:Class" xmi:id="_F2o8I4MHEeuaX5PLgTUujg" name="TransactionByMobile" superTypes="_F2o8IoMHEeuaX5PLgTUujg">
+      <attributes xmi:id="_gZRtUIMHEeuaX5PLgTUujg" name="mobilePayID" type="_F2o8J4MHEeuaX5PLgTUujg"/>
+      <attributes xmi:id="_5Y9eAIMHEeuaX5PLgTUujg" name="mobilePaymentPlatformType" type="_p15_0IMHEeuaX5PLgTUujg"/>
+      <attributes xmi:id="_uRxRsIMIEeueJvzVmnbeJA" name="isValid" type="_F2o8JoMHEeuaX5PLgTUujg"/>
+      <attributes xmi:id="_vY2OgIMIEeueJvzVmnbeJA" name="expireDate">
+        <type xsi:type="ram:Class" href="PaymentConcern.ram#_02HTMILkEeuaX5PLgTUujg"/>
+      </attributes>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_ePvCwINbEeu0Oo8n3W-WGg" name="MobilePaymentPlatform"/>
+    <types xsi:type="ram:RVoid" xmi:id="_F2o8JIMHEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RAny" xmi:id="_F2o8JYMHEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_F2o8JoMHEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RInt" xmi:id="_F2o8J4MHEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RChar" xmi:id="_F2o8KIMHEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RString" xmi:id="_F2o8KYMHEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RDouble" xmi:id="_F2o8KoMHEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RFloat" xmi:id="_F2o8K4MHEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RLong" xmi:id="_F2o8LIMHEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RByte" xmi:id="_F2o8LYMHEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:REnum" xmi:id="_p15_0IMHEeuaX5PLgTUujg" name="MobilePaymentPlatformType">
+      <literals xmi:id="_vJbH4IMHEeuaX5PLgTUujg" name="PayPal"/>
+      <literals xmi:id="_1ShNEIMHEeuaX5PLgTUujg" name="GoogleWallet"/>
+      <literals xmi:id="_2p7E4IMHEeuaX5PLgTUujg" name="WeChat"/>
+    </types>
+  </structuralView>
+  <instantiations xmi:id="_F2o8LoMHEeuaX5PLgTUujg">
+    <source xsi:type="ram:Aspect" href="TransactionMethod.ram#_JnLMUIL4EeuaX5PLgTUujg"/>
+  </instantiations>
+  <layout xmi:id="_F2o8L4MHEeuaX5PLgTUujg">
+    <containers xmi:id="_F2o8MIMHEeuaX5PLgTUujg" key="_F2o8IYMHEeuaX5PLgTUujg">
+      <value xmi:id="_F2o8MYMHEeuaX5PLgTUujg" key="_F2o8IoMHEeuaX5PLgTUujg">
+        <value xmi:id="_F2o8MoMHEeuaX5PLgTUujg" x="950.0" y="326.0"/>
+      </value>
+      <value xmi:id="_F2o8M4MHEeuaX5PLgTUujg" key="_F2o8I4MHEeuaX5PLgTUujg">
+        <value xmi:id="_F2o8NIMHEeuaX5PLgTUujg" x="420.49994" y="280.0"/>
+      </value>
+      <value xmi:id="_p17N8IMHEeuaX5PLgTUujg" key="_p15_0IMHEeuaX5PLgTUujg">
+        <value xmi:id="_p17N8YMHEeuaX5PLgTUujg" x="919.9883" y="486.0"/>
+      </value>
+      <value xmi:id="_ePw38INbEeu0Oo8n3W-WGg" key="_ePvCwINbEeu0Oo8n3W-WGg">
+        <value xmi:id="_ePw38YNbEeu0Oo8n3W-WGg" x="539.49994" y="509.5"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

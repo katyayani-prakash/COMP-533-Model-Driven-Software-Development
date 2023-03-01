@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_JnLMUIL4EeuaX5PLgTUujg" name="TransactionMethod">
+  <realizes href="PaymentConcern2.core#_adIUQILhEeuaX5PLgTUujg"/>
+  <coreConcern href="PaymentConcern2.core#_DklPMILhEeuaX5PLgTUujg"/>
+  <structuralView xmi:id="_JnLMYoL4EeuaX5PLgTUujg">
+    <classes xsi:type="ram:Class" xmi:id="_hy6WkIMDEeuaX5PLgTUujg" name="TransactionAccount">
+      <attributes xmi:id="_aO7QoIMXEeueJvzVmnbeJA" name="transactionAccountType" type="_PSrlgIMXEeueJvzVmnbeJA"/>
+    </classes>
+    <types xsi:type="ram:RVoid" xmi:id="_JnLMcoL4EeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RAny" xmi:id="_JnLMc4L4EeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_JnLMdIL4EeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RInt" xmi:id="_JnLMdYL4EeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RChar" xmi:id="_JnLMdoL4EeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RString" xmi:id="_JnLMd4L4EeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RDouble" xmi:id="_JnLMeIL4EeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RFloat" xmi:id="_JnLMeYL4EeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RLong" xmi:id="_JnLMeoL4EeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RByte" xmi:id="_JnLMe4L4EeuaX5PLgTUujg"/>
+    <types xsi:type="ram:REnum" xmi:id="_PSrlgIMXEeueJvzVmnbeJA" name="TransectionAccountType">
+      <literals xmi:id="_U4n6UIMXEeueJvzVmnbeJA" name="ByCard"/>
+      <literals xmi:id="_VrGgIIMXEeueJvzVmnbeJA" name="ByMobile"/>
+      <literals xmi:id="_Xk23EIMXEeueJvzVmnbeJA" name="ByCash"/>
+    </types>
+  </structuralView>
+  <instantiations xmi:id="_JnLMfIL4EeuaX5PLgTUujg">
+    <source xsi:type="ram:Aspect" href="PaymentConcern.ram#_02HS0ILkEeuaX5PLgTUujg"/>
+  </instantiations>
+  <layout xmi:id="_JnLMfYL4EeuaX5PLgTUujg">
+    <containers xmi:id="_JnLMfoL4EeuaX5PLgTUujg" key="_JnLMYoL4EeuaX5PLgTUujg">
+      <value xmi:id="_hy8LwIMDEeuaX5PLgTUujg" key="_hy6WkIMDEeuaX5PLgTUujg">
+        <value xmi:id="_hy8LwYMDEeuaX5PLgTUujg" x="286.99988" y="335.0"/>
+      </value>
+      <value xmi:id="_PSszoIMXEeueJvzVmnbeJA" key="_PSrlgIMXEeueJvzVmnbeJA">
+        <value xmi:id="_PSszoYMXEeueJvzVmnbeJA" x="746.9612" y="318.5"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

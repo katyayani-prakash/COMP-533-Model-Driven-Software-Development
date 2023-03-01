@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_8eFmcIMIEeueJvzVmnbeJA" name="PayByCash">
+  <realizes href="PaymentConcern2.core#_IEvV8IMIEeuaX5PLgTUujg"/>
+  <coreConcern href="PaymentConcern2.core#_DklPMILhEeuaX5PLgTUujg"/>
+  <structuralView xmi:id="_8eFmcYMIEeueJvzVmnbeJA">
+    <classes xsi:type="ram:Class" xmi:id="_8eFmcoMIEeueJvzVmnbeJA" name="TransactionAccount"/>
+    <classes xsi:type="ram:Class" xmi:id="_8eFmc4MIEeueJvzVmnbeJA" name="TransactionByCash" superTypes="_8eFmcoMIEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RVoid" xmi:id="_8eFmdIMIEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RAny" xmi:id="_8eFmdYMIEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_8eFmdoMIEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RInt" xmi:id="_8eFmd4MIEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RChar" xmi:id="_8eFmeIMIEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RString" xmi:id="_8eFmeYMIEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RDouble" xmi:id="_8eFmeoMIEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RFloat" xmi:id="_8eFme4MIEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RLong" xmi:id="_8eFmfIMIEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RByte" xmi:id="_8eFmfYMIEeueJvzVmnbeJA"/>
+  </structuralView>
+  <instantiations xmi:id="_8eFmfoMIEeueJvzVmnbeJA">
+    <source xsi:type="ram:Aspect" href="TransactionMethod.ram#_JnLMUIL4EeuaX5PLgTUujg"/>
+  </instantiations>
+  <layout xmi:id="_8eFmf4MIEeueJvzVmnbeJA">
+    <containers xmi:id="_8eFmgIMIEeueJvzVmnbeJA" key="_8eFmcYMIEeueJvzVmnbeJA">
+      <value xmi:id="_8eFmgYMIEeueJvzVmnbeJA" key="_8eFmcoMIEeueJvzVmnbeJA">
+        <value xmi:id="_8eFmgoMIEeueJvzVmnbeJA" x="909.99994" y="304.0001"/>
+      </value>
+      <value xmi:id="_8eFmg4MIEeueJvzVmnbeJA" key="_8eFmc4MIEeueJvzVmnbeJA">
+        <value xmi:id="_8eFmhIMIEeueJvzVmnbeJA" x="502.0" y="304.0001"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

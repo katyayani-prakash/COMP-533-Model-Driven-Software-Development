@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_pKK-MILmEeuaX5PLgTUujg" name="Coupon">
+  <modelReuses xmi:id="_pKK-MYLmEeuaX5PLgTUujg">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_pKK-MoLmEeuaX5PLgTUujg">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_ManyOpposite_One.ram#_xJTfUILjEeuaX5PLgTUujg"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_pKK-M4LmEeuaX5PLgTUujg" to="_pKK-ZILmEeuaX5PLgTUujg">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_ManyOpposite_One.ram#_xJTfV4LjEeuaX5PLgTUujg"/>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_pKK-NILmEeuaX5PLgTUujg" to="_pKK-VILmEeuaX5PLgTUujg">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_ManyOpposite_One.ram#_xJTfUoLjEeuaX5PLgTUujg"/>
+        <operationMappings xmi:id="_pKK-NYLmEeuaX5PLgTUujg" to="_pKK-VYLmEeuaX5PLgTUujg">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_One.ram#_xJTfU4LjEeuaX5PLgTUujg"/>
+        </operationMappings>
+        <operationMappings xmi:id="_pKK-NoLmEeuaX5PLgTUujg" to="_pKK-VoLmEeuaX5PLgTUujg">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_One.ram#_xJTfVILjEeuaX5PLgTUujg"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="PaymentConcern2.core#_Uq0lIILmEeuaX5PLgTUujg"/>
+  </modelReuses>
+  <modelReuses xmi:id="_pKK-N4LmEeuaX5PLgTUujg">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_pKK-OILmEeuaX5PLgTUujg">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEOwILjEeuaX5PLgTUujg"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_pKK-OYLmEeuaX5PLgTUujg" to="_pKK-VILmEeuaX5PLgTUujg">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEOwoLjEeuaX5PLgTUujg"/>
+        <operationMappings xmi:id="_pKK-OoLmEeuaX5PLgTUujg" to="_pKK-VYLmEeuaX5PLgTUujg">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEOw4LjEeuaX5PLgTUujg"/>
+        </operationMappings>
+        <operationMappings xmi:id="_pKK-O4LmEeuaX5PLgTUujg" to="_pKK-VoLmEeuaX5PLgTUujg">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEOxILjEeuaX5PLgTUujg"/>
+        </operationMappings>
+        <operationMappings xmi:id="_pKK-PILmEeuaX5PLgTUujg" to="_pKK-WILmEeuaX5PLgTUujg">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEOxoLjEeuaX5PLgTUujg"/>
+        </operationMappings>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_pKK-PYLmEeuaX5PLgTUujg" to="_pKK-ZILmEeuaX5PLgTUujg">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEOyYLjEeuaX5PLgTUujg"/>
+        <operationMappings xmi:id="_pKK-PoLmEeuaX5PLgTUujg" to="_pKK-ZYLmEeuaX5PLgTUujg">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEOyoLjEeuaX5PLgTUujg"/>
+        </operationMappings>
+        <operationMappings xmi:id="_pKK-P4LmEeuaX5PLgTUujg" to="_pKK-ZoLmEeuaX5PLgTUujg">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEOy4LjEeuaX5PLgTUujg"/>
+        </operationMappings>
+        <operationMappings xmi:id="_pKK-QILmEeuaX5PLgTUujg" to="_pKK-aILmEeuaX5PLgTUujg">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEOzYLjEeuaX5PLgTUujg"/>
+        </operationMappings>
+        <operationMappings xmi:id="_pKK-QYLmEeuaX5PLgTUujg" to="_pKK-aYLmEeuaX5PLgTUujg">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEOzoLjEeuaX5PLgTUujg"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="PaymentConcern2.core#_Uq3ocILmEeuaX5PLgTUujg"/>
+  </modelReuses>
+  <modelReuses xmi:id="_pKK-QoLmEeuaX5PLgTUujg">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_pKK-Q4LmEeuaX5PLgTUujg">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_ManyOpposite_One.ram#_xJTfUILjEeuaX5PLgTUujg"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_pKK-RILmEeuaX5PLgTUujg" to="_pKK-a4LmEeuaX5PLgTUujg">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_ManyOpposite_One.ram#_xJTfV4LjEeuaX5PLgTUujg"/>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_pKK-RYLmEeuaX5PLgTUujg" to="_pKK-VILmEeuaX5PLgTUujg">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_ManyOpposite_One.ram#_xJTfUoLjEeuaX5PLgTUujg"/>
+        <operationMappings xmi:id="_pKK-RoLmEeuaX5PLgTUujg" to="_pKK-WoLmEeuaX5PLgTUujg">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_One.ram#_xJTfU4LjEeuaX5PLgTUujg"/>
+        </operationMappings>
+        <operationMappings xmi:id="_pKK-R4LmEeuaX5PLgTUujg" to="_pKK-W4LmEeuaX5PLgTUujg">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_One.ram#_xJTfVILjEeuaX5PLgTUujg"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="PaymentConcern2.core#_blaYsILmEeuaX5PLgTUujg"/>
+  </modelReuses>
+  <modelReuses xmi:id="_pKK-SILmEeuaX5PLgTUujg">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_pKK-SYLmEeuaX5PLgTUujg">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEOwILjEeuaX5PLgTUujg"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_pKK-SoLmEeuaX5PLgTUujg" to="_pKK-VILmEeuaX5PLgTUujg">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEOwoLjEeuaX5PLgTUujg"/>
+        <operationMappings xmi:id="_pKK-S4LmEeuaX5PLgTUujg" to="_pKK-WoLmEeuaX5PLgTUujg">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEOw4LjEeuaX5PLgTUujg"/>
+        </operationMappings>
+        <operationMappings xmi:id="_pKK-TILmEeuaX5PLgTUujg" to="_pKK-W4LmEeuaX5PLgTUujg">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEOxILjEeuaX5PLgTUujg"/>
+        </operationMappings>
+        <operationMappings xmi:id="_pKK-TYLmEeuaX5PLgTUujg" to="_pKK-XYLmEeuaX5PLgTUujg">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEOxoLjEeuaX5PLgTUujg"/>
+        </operationMappings>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_pKK-ToLmEeuaX5PLgTUujg" to="_pKK-a4LmEeuaX5PLgTUujg">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEOyYLjEeuaX5PLgTUujg"/>
+        <operationMappings xmi:id="_pKK-T4LmEeuaX5PLgTUujg" to="_pKK-bILmEeuaX5PLgTUujg">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEOyoLjEeuaX5PLgTUujg"/>
+        </operationMappings>
+        <operationMappings xmi:id="_pKK-UILmEeuaX5PLgTUujg" to="_pKK-bYLmEeuaX5PLgTUujg">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEOy4LjEeuaX5PLgTUujg"/>
+        </operationMappings>
+        <operationMappings xmi:id="_pKK-UYLmEeuaX5PLgTUujg" to="_pKK-b4LmEeuaX5PLgTUujg">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEOzYLjEeuaX5PLgTUujg"/>
+        </operationMappings>
+        <operationMappings xmi:id="_pKK-UoLmEeuaX5PLgTUujg" to="_pKK-cILmEeuaX5PLgTUujg">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEOzoLjEeuaX5PLgTUujg"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="PaymentConcern2.core#_bleDEILmEeuaX5PLgTUujg"/>
+  </modelReuses>
+  <realizes href="PaymentConcern2.core#_4jrREILhEeuaX5PLgTUujg"/>
+  <coreConcern href="PaymentConcern2.core#_DklPMILhEeuaX5PLgTUujg"/>
+  <structuralView xmi:id="_pKK-U4LmEeuaX5PLgTUujg">
+    <classes xsi:type="ram:Class" xmi:id="_pKK-VILmEeuaX5PLgTUujg" name="CouponDIscount" superTypes="_pKK-Y4LmEeuaX5PLgTUujg">
+      <operations xmi:id="_pKK-VYLmEeuaX5PLgTUujg" name="getIssuer" extendedVisibility="package" returnType="_pKK-ZILmEeuaX5PLgTUujg"/>
+      <operations xmi:id="_pKK-VoLmEeuaX5PLgTUujg" name="setIssuer" extendedVisibility="package" returnType="_pKK-doLmEeuaX5PLgTUujg">
+        <parameters xmi:id="_pKK-V4LmEeuaX5PLgTUujg" name="newObject" type="_pKK-ZILmEeuaX5PLgTUujg"/>
+      </operations>
+      <operations xmi:id="_pKK-WILmEeuaX5PLgTUujg" name="setSimpleMyStoreAccount" extendedVisibility="protected" returnType="_pKK-doLmEeuaX5PLgTUujg">
+        <parameters xmi:id="_pKK-WYLmEeuaX5PLgTUujg" name="newObject" type="_pKK-ZILmEeuaX5PLgTUujg"/>
+      </operations>
+      <operations xmi:id="_pKK-WoLmEeuaX5PLgTUujg" name="getOwner" extendedVisibility="package" returnType="_pKK-a4LmEeuaX5PLgTUujg"/>
+      <operations xmi:id="_pKK-W4LmEeuaX5PLgTUujg" name="setOwner" extendedVisibility="package" returnType="_pKK-doLmEeuaX5PLgTUujg">
+        <parameters xmi:id="_pKK-XILmEeuaX5PLgTUujg" name="newObject" type="_pKK-a4LmEeuaX5PLgTUujg"/>
+      </operations>
+      <operations xmi:id="_pKK-XYLmEeuaX5PLgTUujg" name="setSimpleMyCustomerAccount" extendedVisibility="protected" returnType="_pKK-doLmEeuaX5PLgTUujg">
+        <parameters xmi:id="_pKK-XoLmEeuaX5PLgTUujg" name="newObject" type="_pKK-a4LmEeuaX5PLgTUujg"/>
+      </operations>
+      <associationEnds xmi:id="_pKK-X4LmEeuaX5PLgTUujg" name="issuer" assoc="_pKK-coLmEeuaX5PLgTUujg" featureSelection="_pKK-MYLmEeuaX5PLgTUujg"/>
+      <associationEnds xmi:id="_pKK-YILmEeuaX5PLgTUujg" name="owner" assoc="_pKK-c4LmEeuaX5PLgTUujg" featureSelection="_pKK-QoLmEeuaX5PLgTUujg"/>
+      <attributes xmi:id="_pKK-YYLmEeuaX5PLgTUujg" name="couponID" type="_pKK-d4LmEeuaX5PLgTUujg"/>
+      <attributes xmi:id="_pKK-YoLmEeuaX5PLgTUujg" name="description" type="_pKK-eYLmEeuaX5PLgTUujg"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_pKK-Y4LmEeuaX5PLgTUujg" name="Discount"/>
+    <classes xsi:type="ram:Class" xmi:id="_pKK-ZILmEeuaX5PLgTUujg" name="Store">
+      <operations xmi:id="_pKK-ZYLmEeuaX5PLgTUujg" name="createStoreCoupon" extendedVisibility="package" returnType="_pKK-ZILmEeuaX5PLgTUujg" operationType="Constructor"/>
+      <operations xmi:id="_pKK-ZoLmEeuaX5PLgTUujg" name="containsStoreCoupon" extendedVisibility="package" returnType="_pKK-doLmEeuaX5PLgTUujg">
+        <parameters xmi:id="_pKK-Z4LmEeuaX5PLgTUujg" name="a" type="_pKK-VILmEeuaX5PLgTUujg"/>
+      </operations>
+      <operations xmi:id="_pKK-aILmEeuaX5PLgTUujg" name="sizeOfStoreCoupon" extendedVisibility="package" returnType="_pKK-d4LmEeuaX5PLgTUujg"/>
+      <operations xmi:id="_pKK-aYLmEeuaX5PLgTUujg" name="getStoreCoupon" extendedVisibility="package">
+        <returnType xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEO0YLjEeuaX5PLgTUujg"/>
+      </operations>
+      <associationEnds xmi:id="_pKK-aoLmEeuaX5PLgTUujg" name="storeCoupon" upperBound="-1" assoc="_pKK-coLmEeuaX5PLgTUujg" featureSelection="_pKK-N4LmEeuaX5PLgTUujg"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_pKK-a4LmEeuaX5PLgTUujg" name="Customer">
+      <operations xmi:id="_pKK-bILmEeuaX5PLgTUujg" name="createCustomerCoupon" extendedVisibility="package" returnType="_pKK-a4LmEeuaX5PLgTUujg" operationType="Constructor"/>
+      <operations xmi:id="_pKK-bYLmEeuaX5PLgTUujg" name="containsCustomerCoupon" extendedVisibility="package" returnType="_pKK-doLmEeuaX5PLgTUujg">
+        <parameters xmi:id="_pKK-boLmEeuaX5PLgTUujg" name="a" type="_pKK-VILmEeuaX5PLgTUujg"/>
+      </operations>
+      <operations xmi:id="_pKK-b4LmEeuaX5PLgTUujg" name="sizeOfCustomerCoupon" extendedVisibility="package" returnType="_pKK-d4LmEeuaX5PLgTUujg"/>
+      <operations xmi:id="_pKK-cILmEeuaX5PLgTUujg" name="getCustomerCoupon" extendedVisibility="package">
+        <returnType xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_xJEO0YLjEeuaX5PLgTUujg"/>
+      </operations>
+      <associationEnds xmi:id="_pKK-cYLmEeuaX5PLgTUujg" name="customerCoupon" upperBound="-1" assoc="_pKK-c4LmEeuaX5PLgTUujg" featureSelection="_pKK-SILmEeuaX5PLgTUujg"/>
+    </classes>
+    <associations xmi:id="_pKK-coLmEeuaX5PLgTUujg" name="StoreAccount_CouponDIscount" ends="_pKK-aoLmEeuaX5PLgTUujg _pKK-X4LmEeuaX5PLgTUujg"/>
+    <associations xmi:id="_pKK-c4LmEeuaX5PLgTUujg" name="CustomerAccount_CouponDIscount" ends="_pKK-cYLmEeuaX5PLgTUujg _pKK-YILmEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RVoid" xmi:id="_pKK-dILmEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RAny" xmi:id="_pKK-dYLmEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_pKK-doLmEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RInt" xmi:id="_pKK-d4LmEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RChar" xmi:id="_pKK-eILmEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RString" xmi:id="_pKK-eYLmEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RDouble" xmi:id="_pKK-eoLmEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RFloat" xmi:id="_pKK-e4LmEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RLong" xmi:id="_pKK-fILmEeuaX5PLgTUujg"/>
+    <types xsi:type="ram:RByte" xmi:id="_pKK-fYLmEeuaX5PLgTUujg"/>
+  </structuralView>
+  <instantiations xmi:id="_pKK-foLmEeuaX5PLgTUujg">
+    <source xsi:type="ram:Aspect" href="Discount.ram#_LZMeMILlEeuaX5PLgTUujg"/>
+  </instantiations>
+  <layout xmi:id="_pKK-f4LmEeuaX5PLgTUujg">
+    <containers xmi:id="_pKK-gILmEeuaX5PLgTUujg" key="_pKK-U4LmEeuaX5PLgTUujg">
+      <value xmi:id="_pKK-gYLmEeuaX5PLgTUujg" key="_pKK-VILmEeuaX5PLgTUujg">
+        <value xmi:id="_pKK-goLmEeuaX5PLgTUujg" x="587.0" y="270.0"/>
+      </value>
+      <value xmi:id="_pKK-g4LmEeuaX5PLgTUujg" key="_pKK-Y4LmEeuaX5PLgTUujg">
+        <value xmi:id="_pKK-hILmEeuaX5PLgTUujg" x="607.0" y="452.00003"/>
+      </value>
+      <value xmi:id="_pKK-hYLmEeuaX5PLgTUujg" key="_pKK-ZILmEeuaX5PLgTUujg">
+        <value xmi:id="_pKK-hoLmEeuaX5PLgTUujg" x="138.08746" y="232.94922"/>
+      </value>
+      <value xmi:id="_pKK-h4LmEeuaX5PLgTUujg" key="_pKK-a4LmEeuaX5PLgTUujg">
+        <value xmi:id="_pKK-iILmEeuaX5PLgTUujg" x="118.575745" y="343.7541"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

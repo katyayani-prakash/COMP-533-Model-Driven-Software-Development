@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_1xg1MIMSEeueJvzVmnbeJA" name="TerminateTransaction">
+  <realizes href="PaymentConcern2.core#_WyNrcIMSEeueJvzVmnbeJA"/>
+  <coreConcern href="PaymentConcern2.core#_DklPMILhEeuaX5PLgTUujg"/>
+  <structuralView xmi:id="_1xg1RYMSEeueJvzVmnbeJA">
+    <classes xsi:type="ram:Class" xmi:id="_1xg1RoMSEeueJvzVmnbeJA" name="Transaction">
+      <attributes xmi:id="_1xg1TYMSEeueJvzVmnbeJA" name="forceTerminate" type="_1xg1WIMSEeueJvzVmnbeJA"/>
+      <attributes xmi:id="_MVrwQIMUEeueJvzVmnbeJA" name="errorMessage" type="_1xg1W4MSEeueJvzVmnbeJA"/>
+    </classes>
+    <types xsi:type="ram:RVoid" xmi:id="_1xg1VoMSEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RAny" xmi:id="_1xg1V4MSEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_1xg1WIMSEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RInt" xmi:id="_1xg1WYMSEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RChar" xmi:id="_1xg1WoMSEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RString" xmi:id="_1xg1W4MSEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RDouble" xmi:id="_1xg1XIMSEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RFloat" xmi:id="_1xg1XYMSEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RLong" xmi:id="_1xg1XoMSEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RByte" xmi:id="_1xg1X4MSEeueJvzVmnbeJA"/>
+  </structuralView>
+  <instantiations xmi:id="_1xg1YIMSEeueJvzVmnbeJA">
+    <source xsi:type="ram:Aspect" href="FraudDetection.ram#_nOTqcIMSEeueJvzVmnbeJA"/>
+  </instantiations>
+  <layout xmi:id="_1xg1YYMSEeueJvzVmnbeJA">
+    <containers xmi:id="_1xg1YoMSEeueJvzVmnbeJA" key="_1xg1RYMSEeueJvzVmnbeJA">
+      <value xmi:id="_1xg1Y4MSEeueJvzVmnbeJA" key="_1xg1RoMSEeueJvzVmnbeJA">
+        <value xmi:id="_1xg1ZIMSEeueJvzVmnbeJA" x="731.0" y="313.0"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

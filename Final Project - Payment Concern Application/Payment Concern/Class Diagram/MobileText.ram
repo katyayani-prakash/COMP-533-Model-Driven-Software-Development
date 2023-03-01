@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_HLzmAIMMEeueJvzVmnbeJA" name="MobileText">
+  <realizes href="PaymentConcern2.core#_j9EkAILiEeuaX5PLgTUujg"/>
+  <coreConcern href="PaymentConcern2.core#_DklPMILhEeuaX5PLgTUujg"/>
+  <structuralView xmi:id="_HLzmAYMMEeueJvzVmnbeJA">
+    <classes xsi:type="ram:Class" xmi:id="_HLzmAoMMEeueJvzVmnbeJA" name="Notification">
+      <attributes xmi:id="_HLzmA4MMEeueJvzVmnbeJA" name="phoneNumber" type="_HLzmCYMMEeueJvzVmnbeJA"/>
+    </classes>
+    <types xsi:type="ram:RVoid" xmi:id="_HLzmBIMMEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RAny" xmi:id="_HLzmBYMMEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_HLzmBoMMEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RInt" xmi:id="_HLzmB4MMEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RChar" xmi:id="_HLzmCIMMEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RString" xmi:id="_HLzmCYMMEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RDouble" xmi:id="_HLzmCoMMEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RFloat" xmi:id="_HLzmC4MMEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RLong" xmi:id="_HLzmDIMMEeueJvzVmnbeJA"/>
+    <types xsi:type="ram:RByte" xmi:id="_HLzmDYMMEeueJvzVmnbeJA"/>
+  </structuralView>
+  <instantiations xmi:id="_HLzmDoMMEeueJvzVmnbeJA">
+    <source xsi:type="ram:Aspect" href="PaymentNotification.ram#_Iah4YIMLEeueJvzVmnbeJA"/>
+  </instantiations>
+  <layout xmi:id="_HLzmD4MMEeueJvzVmnbeJA">
+    <containers xmi:id="_HLzmEIMMEeueJvzVmnbeJA" key="_HLzmAYMMEeueJvzVmnbeJA">
+      <value xmi:id="_HLzmEYMMEeueJvzVmnbeJA" key="_HLzmAoMMEeueJvzVmnbeJA">
+        <value xmi:id="_HLzmEoMMEeueJvzVmnbeJA" x="632.00006" y="306.0"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>
