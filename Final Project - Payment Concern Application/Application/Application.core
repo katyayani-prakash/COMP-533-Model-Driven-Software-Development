@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="ASCII"?>
+<core:COREConcern xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://cs.mcgill.ca/sel/core/2.0" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_Ow6BYIQYEeuVyLdXmuFgXQ" name="Application">
+  <models xsi:type="core:COREFeatureModel" href="#_Ow6BYYQYEeuVyLdXmuFgXQ"/>
+  <models xsi:type="ram:Aspect" href="Application.ram#_Sd20QIQYEeuVyLdXmuFgXQ"/>
+  <featureModel xmi:id="_Ow6BYYQYEeuVyLdXmuFgXQ" coreConcern="_Ow6BYIQYEeuVyLdXmuFgXQ" root="_Ow6BYoQYEeuVyLdXmuFgXQ">
+    <features xmi:id="_Ow6BYoQYEeuVyLdXmuFgXQ" name="Application">
+      <realizedBy xsi:type="ram:Aspect" href="Application.ram#_Sd20QIQYEeuVyLdXmuFgXQ"/>
+      <reuses xmi:id="_dOxnwIWaEeuVyLdXmuFgXQ" name="PaymentConcern2" selectedConfiguration="_dOxnwYWaEeuVyLdXmuFgXQ">
+        <reusedConcern href="Reused_paymentConcern/PaymentConcern2.core#_DklPMILhEeuaX5PLgTUujg"/>
+        <configurations xmi:id="_dOxnwYWaEeuVyLdXmuFgXQ" name="PaymentConcern2_PaymentConcern2FraudDetectionTransactionMethodDiscountShoppingSeasonRefundInteractiveSessionPayByCashAccountLockPaymentNotificationMobileTest" reuse="_dOxnwIWaEeuVyLdXmuFgXQ">
+          <source xsi:type="core:COREFeatureModel" href="Reused_paymentConcern/PaymentConcern2.core#_Dkl2QILhEeuaX5PLgTUujg"/>
+          <selected href="Reused_paymentConcern/PaymentConcern2.core#_Dkl2QYLhEeuaX5PLgTUujg"/>
+          <selected href="Reused_paymentConcern/PaymentConcern2.core#_TkH_oILiEeuaX5PLgTUujg"/>
+          <selected href="Reused_paymentConcern/PaymentConcern2.core#_adIUQILhEeuaX5PLgTUujg"/>
+          <selected href="Reused_paymentConcern/PaymentConcern2.core#_cun1wILhEeuaX5PLgTUujg"/>
+          <selected href="Reused_paymentConcern/PaymentConcern2.core#_1oTFEILhEeuaX5PLgTUujg"/>
+          <selected href="Reused_paymentConcern/PaymentConcern2.core#__cBiwIL-EeuaX5PLgTUujg"/>
+          <selected href="Reused_paymentConcern/PaymentConcern2.core#_ep7r4ILhEeuaX5PLgTUujg"/>
+          <selected href="Reused_paymentConcern/PaymentConcern2.core#_IEvV8IMIEeuaX5PLgTUujg"/>
+          <selected href="Reused_paymentConcern/PaymentConcern2.core#_YdoEYIMSEeueJvzVmnbeJA"/>
+          <selected href="Reused_paymentConcern/PaymentConcern2.core#_g5VisILhEeuaX5PLgTUujg"/>
+          <selected href="Reused_paymentConcern/PaymentConcern2.core#_j9EkAILiEeuaX5PLgTUujg"/>
+          <reexposed href="Reused_paymentConcern/PaymentConcern2.core#_oTm74ILhEeuaX5PLgTUujg"/>
+          <reexposed href="Reused_paymentConcern/PaymentConcern2.core#_lgAy4ILhEeuaX5PLgTUujg"/>
+          <reexposed href="Reused_paymentConcern/PaymentConcern2.core#_RzlPEILiEeuaX5PLgTUujg"/>
+          <reexposed href="Reused_paymentConcern/PaymentConcern2.core#_4jrREILhEeuaX5PLgTUujg"/>
+          <reexposed href="Reused_paymentConcern/PaymentConcern2.core#_-jsSwILhEeuaX5PLgTUujg"/>
+          <reexposed href="Reused_paymentConcern/PaymentConcern2.core#_tWniwILhEeuaX5PLgTUujg"/>
+          <reexposed href="Reused_paymentConcern/PaymentConcern2.core#_8Tr_AILhEeuaX5PLgTUujg"/>
+          <reexposed href="Reused_paymentConcern/PaymentConcern2.core#_jebYMIM6Eeub0qoaRVZnLg"/>
+        </configurations>
+      </reuses>
+      <reuses xmi:id="_vM4PSIWeEeuVyLdXmuFgXQ" name="Association_Order_Customer" selectedConfiguration="_vM4PSYWeEeuVyLdXmuFgXQ">
+        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
+        <configurations xmi:id="_vM4PSYWeEeuVyLdXmuFgXQ" name="Automatic selection" reuse="_vM4PSIWeEeuVyLdXmuFgXQ">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_GHh2gH19EeW8vqKd4iftUw"/>
+          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
+        </configurations>
+      </reuses>
+      <reuses xmi:id="_pYojSIWfEeuVyLdXmuFgXQ" name="Association_Seller_Product" selectedConfiguration="_pYojSYWfEeuVyLdXmuFgXQ">
+        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
+        <configurations xmi:id="_pYojSYWfEeuVyLdXmuFgXQ" name="Automatic selection" reuse="_pYojSIWfEeuVyLdXmuFgXQ">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_GHh2gH19EeW8vqKd4iftUw"/>
+          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
+        </configurations>
+      </reuses>
+      <reuses xmi:id="_HswCBYWgEeuVyLdXmuFgXQ" name="Association_ShoppingCart_Product" selectedConfiguration="_HswCBoWgEeuVyLdXmuFgXQ">
+        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
+        <configurations xmi:id="_HswCBoWgEeuVyLdXmuFgXQ" name="Automatic selection" reuse="_HswCBYWgEeuVyLdXmuFgXQ">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_GHh2gH19EeW8vqKd4iftUw"/>
+          <selected href="Reused_Association/Association.core#_y2TyIHQ0EeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_EDjMIHQzEeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
+        </configurations>
+      </reuses>
+      <reuses xmi:id="_HszsZoWgEeuVyLdXmuFgXQ" name="Association_Product_ShoppingCart" selectedConfiguration="_HszsZ4WgEeuVyLdXmuFgXQ">
+        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
+        <configurations xmi:id="_HszsZ4WgEeuVyLdXmuFgXQ" name="Automatic selection" reuse="_HszsZoWgEeuVyLdXmuFgXQ">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_zPvl0HQ0EeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_EDjMIHQzEeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_EnSLwH19EeW8vqKd4iftUw"/>
+        </configurations>
+      </reuses>
+      <reuses xmi:id="_NIKsYIWhEeuVyLdXmuFgXQ" name="PaymentConcern21" selectedConfiguration="_NIKsYYWhEeuVyLdXmuFgXQ">
+        <reusedConcern href="Reused_paymentConcern/PaymentConcern2.core#_DklPMILhEeuaX5PLgTUujg"/>
+        <configurations xmi:id="_NIKsYYWhEeuVyLdXmuFgXQ" name="PaymentConcern2_RecordHistoryPayByCashFraudDetectionAccountLockInteractiveSessionRefundCouponEmailPaymentConcern2TransactionMethodDiscountPaymentNotification" reuse="_NIKsYIWhEeuVyLdXmuFgXQ">
+          <source xsi:type="core:COREFeatureModel" href="Reused_paymentConcern/PaymentConcern2.core#_Dkl2QILhEeuaX5PLgTUujg"/>
+          <selected href="Reused_paymentConcern/PaymentConcern2.core#_lgAy4ILhEeuaX5PLgTUujg"/>
+          <selected href="Reused_paymentConcern/PaymentConcern2.core#_IEvV8IMIEeuaX5PLgTUujg"/>
+          <selected href="Reused_paymentConcern/PaymentConcern2.core#_TkH_oILiEeuaX5PLgTUujg"/>
+          <selected href="Reused_paymentConcern/PaymentConcern2.core#_YdoEYIMSEeueJvzVmnbeJA"/>
+          <selected href="Reused_paymentConcern/PaymentConcern2.core#_ep7r4ILhEeuaX5PLgTUujg"/>
+          <selected href="Reused_paymentConcern/PaymentConcern2.core#__cBiwIL-EeuaX5PLgTUujg"/>
+          <selected href="Reused_paymentConcern/PaymentConcern2.core#_4jrREILhEeuaX5PLgTUujg"/>
+          <selected href="Reused_paymentConcern/PaymentConcern2.core#_irV2YILiEeuaX5PLgTUujg"/>
+          <selected href="Reused_paymentConcern/PaymentConcern2.core#_Dkl2QYLhEeuaX5PLgTUujg"/>
+          <selected href="Reused_paymentConcern/PaymentConcern2.core#_adIUQILhEeuaX5PLgTUujg"/>
+          <selected href="Reused_paymentConcern/PaymentConcern2.core#_cun1wILhEeuaX5PLgTUujg"/>
+          <selected href="Reused_paymentConcern/PaymentConcern2.core#_g5VisILhEeuaX5PLgTUujg"/>
+          <reexposed href="Reused_paymentConcern/PaymentConcern2.core#_-jsSwILhEeuaX5PLgTUujg"/>
+          <reexposed href="Reused_paymentConcern/PaymentConcern2.core#_RzlPEILiEeuaX5PLgTUujg"/>
+          <reexposed href="Reused_paymentConcern/PaymentConcern2.core#_1oTFEILhEeuaX5PLgTUujg"/>
+          <reexposed href="Reused_paymentConcern/PaymentConcern2.core#_jebYMIM6Eeub0qoaRVZnLg"/>
+          <reexposed href="Reused_paymentConcern/PaymentConcern2.core#_oTm74ILhEeuaX5PLgTUujg"/>
+          <reexposed href="Reused_paymentConcern/PaymentConcern2.core#_tWniwILhEeuaX5PLgTUujg"/>
+          <reexposed href="Reused_paymentConcern/PaymentConcern2.core#_8Tr_AILhEeuaX5PLgTUujg"/>
+        </configurations>
+      </reuses>
+      <reuses xmi:id="_soJhVoWhEeuVyLdXmuFgXQ" name="Association_Employee_Store" selectedConfiguration="_soJhV4WhEeuVyLdXmuFgXQ">
+        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
+        <configurations xmi:id="_soJhV4WhEeuVyLdXmuFgXQ" name="Automatic selection" reuse="_soJhVoWhEeuVyLdXmuFgXQ">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_zPvl0HQ0EeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_EDjMIHQzEeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_EnSLwH19EeW8vqKd4iftUw"/>
+        </configurations>
+      </reuses>
+      <reuses xmi:id="_soNLv4WhEeuVyLdXmuFgXQ" name="Association_Store_Employee" selectedConfiguration="_soNLwIWhEeuVyLdXmuFgXQ">
+        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
+        <configurations xmi:id="_soNLwIWhEeuVyLdXmuFgXQ" name="Automatic selection" reuse="_soNLv4WhEeuVyLdXmuFgXQ">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_GHh2gH19EeW8vqKd4iftUw"/>
+          <selected href="Reused_Association/Association.core#_8wYC4ACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_y2TyIHQ0EeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_EDjMIHQzEeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_LEwHcACXEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_SKylUH2DEeWIy5MXlHNV-w"/>
+        </configurations>
+      </reuses>
+      <reuses xmi:id="_5MDGyoWhEeuVyLdXmuFgXQ" name="Association_Customer_ShoppingCart" selectedConfiguration="_5MDGy4WhEeuVyLdXmuFgXQ">
+        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
+        <configurations xmi:id="_5MDGy4WhEeuVyLdXmuFgXQ" name="Automatic selection" reuse="_5MDGyoWhEeuVyLdXmuFgXQ">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_y2TyIHQ0EeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_EDjMIHQzEeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_EnSLwH19EeW8vqKd4iftUw"/>
+        </configurations>
+      </reuses>
+      <reuses xmi:id="_5MH_QIWhEeuVyLdXmuFgXQ" name="Association_ShoppingCart_Customer" selectedConfiguration="_5MH_QYWhEeuVyLdXmuFgXQ">
+        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
+        <configurations xmi:id="_5MH_QYWhEeuVyLdXmuFgXQ" name="Automatic selection" reuse="_5MH_QIWhEeuVyLdXmuFgXQ">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_y2TyIHQ0EeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_EDjMIHQzEeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_EnSLwH19EeW8vqKd4iftUw"/>
+        </configurations>
+      </reuses>
+      <reuses xmi:id="_8SRQ34WhEeuVyLdXmuFgXQ" name="Association_Order_Product" selectedConfiguration="_8SRQ4IWhEeuVyLdXmuFgXQ">
+        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
+        <configurations xmi:id="_8SRQ4IWhEeuVyLdXmuFgXQ" name="Automatic selection" reuse="_8SRQ34WhEeuVyLdXmuFgXQ">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_GHh2gH19EeW8vqKd4iftUw"/>
+          <selected href="Reused_Association/Association.core#_8wYC4ACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_y2TyIHQ0EeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_EDjMIHQzEeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_LEwHcACXEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_SKylUH2DEeWIy5MXlHNV-w"/>
+        </configurations>
+      </reuses>
+      <reuses xmi:id="_8SWJVoWhEeuVyLdXmuFgXQ" name="Association_Product_Order" selectedConfiguration="_8SWJV4WhEeuVyLdXmuFgXQ">
+        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
+        <configurations xmi:id="_8SWJV4WhEeuVyLdXmuFgXQ" name="Automatic selection" reuse="_8SWJVoWhEeuVyLdXmuFgXQ">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_zPvl0HQ0EeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_EDjMIHQzEeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_EnSLwH19EeW8vqKd4iftUw"/>
+        </configurations>
+      </reuses>
+      <reuses xmi:id="_pwwfoIWwEeuVyLdXmuFgXQ" name="PaymentConcern22" selectedConfiguration="_pwwfoYWwEeuVyLdXmuFgXQ">
+        <reusedConcern href="Reused_paymentConcern/PaymentConcern2.core#_DklPMILhEeuaX5PLgTUujg"/>
+        <configurations xmi:id="_pwwfoYWwEeuVyLdXmuFgXQ" name="PaymentConcern2_FraudDetectionCouponDiscountRefundEmailRecordHistoryTransactionMethodPayByMobileInteractiveSessionPaymentNotificationPayByCardPaymentConcern2" reuse="_pwwfoIWwEeuVyLdXmuFgXQ">
+          <source xsi:type="core:COREFeatureModel" href="Reused_paymentConcern/PaymentConcern2.core#_Dkl2QILhEeuaX5PLgTUujg"/>
+          <selected href="Reused_paymentConcern/PaymentConcern2.core#_TkH_oILiEeuaX5PLgTUujg"/>
+          <selected href="Reused_paymentConcern/PaymentConcern2.core#_4jrREILhEeuaX5PLgTUujg"/>
+          <selected href="Reused_paymentConcern/PaymentConcern2.core#_cun1wILhEeuaX5PLgTUujg"/>
+          <selected href="Reused_paymentConcern/PaymentConcern2.core#__cBiwIL-EeuaX5PLgTUujg"/>
+          <selected href="Reused_paymentConcern/PaymentConcern2.core#_irV2YILiEeuaX5PLgTUujg"/>
+          <selected href="Reused_paymentConcern/PaymentConcern2.core#_lgAy4ILhEeuaX5PLgTUujg"/>
+          <selected href="Reused_paymentConcern/PaymentConcern2.core#_adIUQILhEeuaX5PLgTUujg"/>
+          <selected href="Reused_paymentConcern/PaymentConcern2.core#_tWniwILhEeuaX5PLgTUujg"/>
+          <selected href="Reused_paymentConcern/PaymentConcern2.core#_ep7r4ILhEeuaX5PLgTUujg"/>
+          <selected href="Reused_paymentConcern/PaymentConcern2.core#_g5VisILhEeuaX5PLgTUujg"/>
+          <selected href="Reused_paymentConcern/PaymentConcern2.core#_oTm74ILhEeuaX5PLgTUujg"/>
+          <selected href="Reused_paymentConcern/PaymentConcern2.core#_Dkl2QYLhEeuaX5PLgTUujg"/>
+          <reexposed href="Reused_paymentConcern/PaymentConcern2.core#_RzlPEILiEeuaX5PLgTUujg"/>
+          <reexposed href="Reused_paymentConcern/PaymentConcern2.core#_jebYMIM6Eeub0qoaRVZnLg"/>
+          <reexposed href="Reused_paymentConcern/PaymentConcern2.core#_8Tr_AILhEeuaX5PLgTUujg"/>
+          <reexposed href="Reused_paymentConcern/PaymentConcern2.core#_1oTFEILhEeuaX5PLgTUujg"/>
+          <reexposed href="Reused_paymentConcern/PaymentConcern2.core#_IEvV8IMIEeuaX5PLgTUujg"/>
+          <reexposed href="Reused_paymentConcern/PaymentConcern2.core#_-jsSwILhEeuaX5PLgTUujg"/>
+          <reexposed href="Reused_paymentConcern/PaymentConcern2.core#_YdoEYIMSEeueJvzVmnbeJA"/>
+        </configurations>
+      </reuses>
+    </features>
+  </featureModel>
+</core:COREConcern>
